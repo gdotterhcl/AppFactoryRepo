@@ -326,6 +326,7 @@
     "enterpriseAuthentication": "false",
     "es5build": false,
     "exceptionalert": "true",
+    "export.type": "visualizer",
     "extendBottom": "false",
     "extendTop": "false",
     "fabric_runtime_app_version": "Linked",
@@ -1069,6 +1070,5 @@
     "wp8textnotificationkey": "false",
     "wp8tilestemplatekey": "FLIP_TILE",
     "wp8tilestitlekey": "",
-    "xhtmlfavicokey": "",
-    "export.type": "visualizer"
+    "xhtmlfavicokey": ""
 }
