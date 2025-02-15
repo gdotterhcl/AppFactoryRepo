@@ -1,0 +1,58 @@
+{
+    "Data-Inventory-Warehouse_InventoryWarehouse": {
+        "servicename": "Data-Inventory-Warehouse",
+        "serviceid": "dbe6a8a5-0027-401d-87f2-061b847b8425",
+        "type": "objectsvcs",
+        "objectname": "InventoryWarehouse",
+        "objectid": "374671"
+    },
+    "Data-SalesYonY_SalesYOnY": {
+        "servicename": "Data-SalesYonY",
+        "serviceid": "fe6729c3-b19e-4fd7-a598-e80dfbb6b475",
+        "type": "objectsvcs",
+        "objectname": "SalesYOnY",
+        "objectid": "374636"
+    },
+    "Data-Warranty-ByCategory_WarrantyByCategory": {
+        "servicename": "Data-Warranty-ByCategory",
+        "serviceid": "27771ac9-87b2-45d5-9eb8-0aa90effa9aa",
+        "type": "objectsvcs",
+        "objectname": "WarrantyByCategory",
+        "objectid": "374652"
+    },
+    "OpusOneLeapRMA_RMAClaim": {
+        "servicename": "OpusOneLeapRMA",
+        "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+        "type": "objectsvcs",
+        "objectname": "RMAClaim",
+        "objectid": "376129"
+    },
+    "OpusOneNotif_Notification": {
+        "servicename": "OpusOneNotif",
+        "serviceid": "cf34d8b4-b13a-4fe9-a34f-94f1e437cc8b",
+        "type": "objectsvcs",
+        "objectname": "Notification",
+        "objectid": "374817"
+    },
+    "OpusOneProduct_product": {
+        "servicename": "OpusOneProduct",
+        "serviceid": "49ea54c5-cb13-4aac-bb46-5ccc2d99be80",
+        "type": "objectsvcs",
+        "objectname": "product",
+        "objectid": "376154"
+    },
+    "OpusOneRMA_RMAClaim": {
+        "servicename": "OpusOneRMA",
+        "serviceid": "c86e936b-8887-438a-ab73-44687c6a8f08",
+        "type": "objectsvcs",
+        "objectname": "RMAClaim",
+        "objectid": "374316"
+    },
+    "OpusOneSalesInfo_SalesInfo": {
+        "servicename": "OpusOneSalesInfo",
+        "serviceid": "20f49290-23b4-43e8-ac77-d9cab1e5c2a7",
+        "type": "objectsvcs",
+        "objectname": "SalesInfo",
+        "objectid": "374740"
+    }
+}

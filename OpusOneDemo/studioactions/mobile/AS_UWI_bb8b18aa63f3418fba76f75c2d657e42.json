@@ -1,0 +1,24 @@
+{
+    "AS_UWI_bb8b18aa63f3418fba76f75c2d657e42": {
+        "id": "AS_UWI_bb8b18aa63f3418fba76f75c2d657e42",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClickL",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClickL_h3ccf3fafe2d48e0a84a80ce19f1fe19",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToPreviousForm",
+            "display": "navigateToPreviousForm",
+            "inputparams": [{
+                "name": "navData"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

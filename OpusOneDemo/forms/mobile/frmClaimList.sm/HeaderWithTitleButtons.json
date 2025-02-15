@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "72dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "seaaa958612a4f06804908fc6c57f278",
+    "_top_": {
+        "type": "string",
+        "value": "72dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onClickL": "AS_UWI_c071fa3230b642e0a33d243d68d35850",
+        "ide_onClickR": "AS_UWI_f189fd3f4e224858ae8f9aa3d5ba7445",
+        "srcL": "ham_icn.png",
+        "srcR": "add_circle.png",
+        "text": "Warranty Claims"
+    },
+    "id": "HeaderWithTitleButtons",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a0a53c5ae064457a9da61bb86cbeab46",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmClaimList",
+    "pf": "frmClaimList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "gc07279be8e84c05b23cd056fe059449",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

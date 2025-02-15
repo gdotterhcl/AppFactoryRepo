@@ -1,0 +1,109 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDate",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": 0,
+    "_lines_": 1,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s79e7fcbb4f940cd870582c2892cb278",
+    "_text_": "",
+    "_top_": 0,
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "render": false
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "customformatstring": "M/d/yy, h:mm a",
+    "defaultdate": "09/09/2014 10:39:00 am",
+    "desktopweb": {
+        "render": false
+    },
+    "id": "dtClaim",
+    "info": null,
+    "ipad": {
+        "render": false
+    },
+    "iphone": {
+        "render": false
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "c89a5363bbf14058afdee048b417d99d",
+    "minscale": 100,
+    "name": "kony.ui.Date",
+    "nativemac": {
+        "render": false
+    },
+    "nativewin": {
+        "render": false
+    },
+    "paddinginpixel": true,
+    "parent": "grpRMA",
+    "pf": "tmplRMA",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "tabrcandroid": {
+        "render": false
+    },
+    "tooltip": "",
+    "wType": "Date",
+    "widgetalignment": 1,
+    "windows10": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    }
+}

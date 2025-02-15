@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s13bac9e2b894839a902e24f38f60cd8",
+    "_text_": "Your RMA (return merchandise authorization) has been created. Your RMA ID is: <b>15648962</b>. Details have been emailed to you for your records.\nBring the product to any UPS and show them the following QR code. From there, UPS will pack and ship your item for you.",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "rtxMessage",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h908587be58e4c728039e03415bf38d3",
+    "linkskin": "sb44288a4e34403fbec62c6b41040ae3",
+    "name": "kony.ui.RichText",
+    "parent": "flxMessage",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

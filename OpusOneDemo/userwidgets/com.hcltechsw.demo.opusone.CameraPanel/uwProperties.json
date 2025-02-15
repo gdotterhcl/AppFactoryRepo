@@ -1,0 +1,72 @@
+{
+    "classname": "CameraPanel",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d2544d5965144a7f903638de328eadf0",
+                    "paramList": [],
+                    "propertyKey": "getBase64Image",
+                    "pw": {
+                        "displayName": "getBase64Image",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uc16c84dc02d4934b26baf84e14f5985",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f3fe4e1a95154746a94f7c20cacf32fe",
+                    "paramList": [
+                        {
+                            "name": "base64Img"
+                        }
+                    ],
+                    "propertyKey": "setBase64Image",
+                    "pw": {
+                        "displayName": "setBase64Image",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uc16c84dc02d4934b26baf84e14f5985",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ae18776a0c2849b880da363ffcca74be",
+                    "paramList": [],
+                    "propertyKey": "resetComponent",
+                    "pw": {
+                        "displayName": "resetComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uc16c84dc02d4934b26baf84e14f5985",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

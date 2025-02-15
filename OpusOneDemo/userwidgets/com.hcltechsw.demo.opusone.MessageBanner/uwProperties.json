@@ -1,0 +1,122 @@
+{
+    "classname": "MessageBanner",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed3ce667171d449593d65d9e3ab453de",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {
+                            "conditions": [
+                                {
+                                    "hideProps": [
+                                        "jd4bb662f327463f913aab301562e1c6"
+                                    ],
+                                    "value": false
+                                }
+                            ],
+                            "properties": [
+                                "jd4bb662f327463f913aab301562e1c6"
+                            ]
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "rtxBanner",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "d4392e77b5d04af5b30d119f91e78ae2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jd4bb662f327463f913aab301562e1c6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "rtxBanner",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "d4392e77b5d04af5b30d119f91e78ae2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dc028451c7ec44ed97a32e185cdc9b16",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinBanner",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Banner Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxMessageBanner",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b315c0068fa04259a102995b01daf3ae"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fe14654f61fb466da3ad65ab98905fbb",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skinText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "rtxBanner",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "d4392e77b5d04af5b30d119f91e78ae2"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

@@ -1,0 +1,74 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Type your message here",
+    "_right_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_skin_": "sd63408be217493e8ba0ebd287a28e37",
+    "_text_": "",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "android": {
+        "ide_onBeginEditing": "AS_TextField_fceb480c60474b68b424aba09a444b94"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa6d04af91164871bf50c2e20ff4956f",
+    "id": "txtMessageEntry",
+    "ide_onTextChange": "AS_TextField_a3aff9522db14f2f8159680b7536cb3e",
+    "info": null,
+    "iphone": {
+        "ide_onBeginEditing": "AS_TextField_f1063331171140c1b14c49adb8030cb8"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "hd7765ca32d44de3b96926adbfcfef1c",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxMessageEntry",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sa6d04af91164871bf50c2e20ff4956f",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField"
+}

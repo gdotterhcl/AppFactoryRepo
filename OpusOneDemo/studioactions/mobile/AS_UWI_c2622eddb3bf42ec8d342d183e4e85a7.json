@@ -1,0 +1,24 @@
+{
+    "AS_UWI_c2622eddb3bf42ec8d342d183e4e85a7": {
+        "id": "AS_UWI_c2622eddb3bf42ec8d342d183e4e85a7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5f3e06dda7a481dbb4adf33c8cb0725"
+        },
+        "language": "js",
+        "eventType": "onOption1Click",
+        "actions": [{
+            "id": "ADD_SNIPPET_e2c52b1f356d4a2d8126e47c4be93905",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.ThreeOptionPanel.toggleOption(1);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

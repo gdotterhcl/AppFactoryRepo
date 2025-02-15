@@ -1,0 +1,38 @@
+{
+    "AS_UWI_g5b36296172b4d929970ce631985e9d4": {
+        "id": "AS_UWI_g5b36296172b4d929970ce631985e9d4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "lat",
+            "datatype": "collection"
+        }, {
+            "name": "lon",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmUPS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bdb168da519748648a415155fdb8446b"
+        },
+        "language": "js",
+        "eventType": "onLocationReceived",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f84e1d5ef1e34231ad33f792ba2bca96",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createDemoData",
+            "display": "createDemoData",
+            "inputparams": [{
+                "name": "lat",
+                "value": " lat"
+            }, {
+                "name": "lon",
+                "value": " lon"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

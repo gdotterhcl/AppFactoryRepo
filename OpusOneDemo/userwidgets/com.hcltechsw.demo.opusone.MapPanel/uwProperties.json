@@ -1,0 +1,141 @@
+{
+    "classname": "MapPanel",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "gc67f506068d42abaf063164dcd93659",
+                    "paramList": [
+                        {
+                            "name": "latVal"
+                        },
+                        {
+                            "name": "lonVal"
+                        }
+                    ],
+                    "propertyKey": "setHomePoint",
+                    "pw": {
+                        "displayName": "setHomePoint",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i7d02ee6d94b445ea0310f056e1d9b2a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Read",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "i74a4d5d6a5b46b7b682979059e12836",
+                    "originalPropertyKey": "isHomePointSet",
+                    "propertyIndex": 1,
+                    "propertyKey": "isHomePointSet",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Home Point Set?",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "i7d02ee6d94b445ea0310f056e1d9b2a",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Pin Image",
+                                "columnHeaderType": "text",
+                                "columnID": "imgPin",
+                                "columnText": "Not Defined",
+                                "columnType": "image",
+                                "kuid": "c4c3efaae908421ea7a8e81948927581"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Location Name",
+                                "columnHeaderType": "text",
+                                "columnID": "lblName",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "e6242e7102eb430aa00e237e4e94388d"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "City, State",
+                                "columnHeaderType": "text",
+                                "columnID": "lblCityState",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "hcbf28da9fc44025b35f6012d84a3893"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Dismiss Dialog Image",
+                                "columnHeaderType": "text",
+                                "columnID": "imgDismiss",
+                                "columnText": "Not Defined",
+                                "columnType": "image",
+                                "kuid": "h029b5c24f074a20b265bb45aa36401d"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Callout Template",
+                                "columnHeaderType": "text",
+                                "columnID": "template",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "j2b034af46df497e850487e652f28fea"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "e69da03a261747d18cd5b7e462e6f44a",
+                    "originalPropertyKey": "currentMapData",
+                    "propertyIndex": 2,
+                    "propertyKey": "currentMapData",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Map Data",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "i7d02ee6d94b445ea0310f056e1d9b2a",
+                    "type": "data grid",
+                    "value": 5
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "e1febad4233243fbb4ebfaa6d0a174a7",
+                    "propertyKey": "mapMain",
+                    "srcWgtKUID": "b9494896032f4e21a60b136c0669b6e9"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

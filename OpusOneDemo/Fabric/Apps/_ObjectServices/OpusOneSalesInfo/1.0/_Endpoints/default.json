@@ -1,0 +1,9 @@
+{
+  "name" : "default",
+  "type" : "SAAS",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "sampleData" : "SalesInfo.csv.zip"
+  },
+  "jsonpath" : false
+}

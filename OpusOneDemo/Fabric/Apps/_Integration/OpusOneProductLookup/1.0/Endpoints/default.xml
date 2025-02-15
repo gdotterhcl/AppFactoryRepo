@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<endpoint name="default" type="JSON" url="https://voltmxtechnohub.hclvoltmx.net:443/services/data/v1/OpusOneProduct/objects/product" encryptSecureInfo="false">
+    <config>
+        <entry>
+            <key>server.auth.mode</key>
+            <value>basic</value>
+        </entry>
+        <entry>
+            <key>ignorehttpproxy</key>
+            <value>true</value>
+        </entry>
+        <entry>
+            <key>pwd</key>
+            <value></value>
+        </entry>
+        <entry>
+            <key>userid</key>
+            <value></value>
+        </entry>
+    </config>
+    <apiThrottling/>
+    <jsonpath>true</jsonpath>
+</endpoint>

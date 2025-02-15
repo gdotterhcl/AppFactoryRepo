@@ -1,0 +1,2 @@
+ALTER TABLE `SalesInfo`
+	MODIFY `SaleDate` VARCHAR(20);

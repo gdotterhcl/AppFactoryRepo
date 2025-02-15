@@ -1,0 +1,11 @@
+{
+  "background_image": "conductorstand.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s55ce3ab4fb546f8abef73622dec3a4c",
+  "wType": "FlexContainer"
+}

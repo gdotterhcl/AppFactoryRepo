@@ -1,0 +1,37 @@
+{
+    "AS_TextField_fceb480c60474b68b424aba09a444b94": {
+        "id": "AS_TextField_fceb480c60474b68b424aba09a444b94",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u43a3442dbf544f28ae28de5a72ec0ec"
+        },
+        "language": "js",
+        "eventType": "onBeginEditing",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i31a87104e0a428884eebfa08808bbe6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleTypingPanel",
+            "display": "toggleTypingPanel",
+            "inputparams": [{
+                "name": "bShow",
+                "value": "true"
+            }, {
+                "name": "who",
+                "value": "MSGTYPE.USER"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

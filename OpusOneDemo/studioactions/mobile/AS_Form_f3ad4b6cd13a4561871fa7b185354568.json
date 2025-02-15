@@ -1,0 +1,26 @@
+{
+    "AS_Form_f3ad4b6cd13a4561871fa7b185354568": {
+        "id": "AS_Form_f3ad4b6cd13a4561871fa7b185354568",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "eb77cbe33ec84f218219f0f48b8e9b92"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_preShow_d75ed8c41b5845ebb119c52b8f14a955",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "frmReportOutagePic_preShow",
+            "display": "frmReportOutagePic_preShow",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

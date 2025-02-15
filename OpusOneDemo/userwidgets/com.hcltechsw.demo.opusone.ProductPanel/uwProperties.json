@@ -1,0 +1,142 @@
+{
+    "classname": "ProductPanel",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f179016ee9384ff6ac5ac8d31ba50a3e",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image Source",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgPanel",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "i60d9a7080344088b7b79b4c65f6221f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j38b33a4232c47ed9adda5ece911a551",
+                    "originalPropertyKey": "textCaption",
+                    "propertyIndex": 2,
+                    "propertyKey": "textCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "f04ade8f1a2f4a2b8973982ccf455e61"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef41b638751d4ae697f54dce6de3f854",
+                    "originalPropertyKey": "textAbstract",
+                    "propertyIndex": 3,
+                    "propertyKey": "textAbstract",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Abstract Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "f04ade8f1a2f4a2b8973982ccf455e61"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba90f5817c9e4f77a82b8909bda55ef5",
+                    "originalPropertyKey": "skinCaption",
+                    "propertyIndex": 4,
+                    "propertyKey": "skinCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "f04ade8f1a2f4a2b8973982ccf455e61"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f5710e9b9f3941a782797f2ad4c74fe6",
+                    "originalPropertyKey": "skinAbstract",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinAbstract",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Abstract Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "f04ade8f1a2f4a2b8973982ccf455e61"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

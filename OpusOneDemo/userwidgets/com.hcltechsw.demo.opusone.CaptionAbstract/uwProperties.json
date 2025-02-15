@@ -1,0 +1,145 @@
+{
+    "classname": "CaptionAbstract",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fdf58bf936994176a48fa6a5f7cd07d1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblCaption",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gd956d1772e5424d985437175c6422c2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f88e3b77b5f748809b329634acc9e124",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isAbstractVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {
+                            "conditions": [
+                                {
+                                    "hideProps": [
+                                        "hc171eea201e4c3c81052fe2c38912f7"
+                                    ],
+                                    "value": false
+                                }
+                            ],
+                            "properties": [
+                                "hc171eea201e4c3c81052fe2c38912f7"
+                            ]
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Abstract",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxAbstract",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "j10c7341bd27466e8855df7c2e6d2fa0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hc171eea201e4c3c81052fe2c38912f7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textAbstract",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Abstract Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblAbstract",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ic09c0ef6e6b4608981886fdc72a5f0e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba90f5817c9e4f77a82b8909bda55ef5",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skinCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblCaption",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gd956d1772e5424d985437175c6422c2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f5710e9b9f3941a782797f2ad4c74fe6",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinAbstract",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Abstract Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblAbstract",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ic09c0ef6e6b4608981886fdc72a5f0e"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

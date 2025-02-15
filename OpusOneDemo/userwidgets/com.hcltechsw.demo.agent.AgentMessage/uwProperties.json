@@ -1,0 +1,146 @@
+{
+    "classname": "AgentMessage",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c0db43aff0404b418f69d99178ac370b",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Avatar Image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgAvatar",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "i077006e322a460a92d8d9c6a1f050a3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b0721ff1b394463897ebe6cd00fdff58",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textAgentName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Agent Name",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblAgent",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "aaec15e2ad2c4c9f98e62b6bde27d88b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ca4ab06155ca46ab909ef434c4183b16",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textAgentPos",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Agent Position",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblPosition",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a5ed18093b274b08aa8e1790c2756aba"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef5b459e7d284e358da13ffd4d756de4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textMsg",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Message Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMessage",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e7700f7645ea4ec8ba345ea957e081e6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f9754651999d403bae78fbc210f1a9b0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "textTime",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Message Time",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTimestamp",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bcc1d33956a448d39de1bc68634ce0ee"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.agent",
+    "version": "1.0.0"
+}

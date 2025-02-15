@@ -1,0 +1,146 @@
+{
+    "classname": "OptionButton",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ee3853bff8374c0c8cc574c574ef2c1c",
+                    "paramList": [
+                        {
+                            "name": "bOn"
+                        }
+                    ],
+                    "propertyKey": "toggleSelection",
+                    "pw": {
+                        "displayName": "toggleSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b0d7c99392e24d7bb42a55aa2ff449bf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e49c61a26d6948ca8b66ba2b8d0f2eb7",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClick",
+                        "srcWidget": "flxOptionPanel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ae2d23767dbe4a7ab638daf5964c3008",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Read",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "f58f3b336e9e4ac59bea9c41d66e57d6",
+                    "originalPropertyKey": "isToggled",
+                    "propertyIndex": 4,
+                    "propertyKey": "isToggled",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Toggled On",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b0d7c99392e24d7bb42a55aa2ff449bf",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ifd0ce6d7a204beebbe6c3da36e8676f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButtonText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bd1ae5a7ddaa4205b74ecaa3abf877a3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j9ae7920dba54fc9aad4221bc6f7ffc1",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxOptionButton",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a5fa52cb785a4acca4bc263815db9aa0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f0b1f7ffa5e14a659b0088f7820dee30",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButtonText",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bd1ae5a7ddaa4205b74ecaa3abf877a3"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

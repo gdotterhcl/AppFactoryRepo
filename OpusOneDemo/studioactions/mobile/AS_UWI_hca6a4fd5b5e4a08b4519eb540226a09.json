@@ -1,0 +1,769 @@
+{
+    "AS_UWI_hca6a4fd5b5e4a08b4519eb540226a09": {
+        "id": "AS_UWI_hca6a4fd5b5e4a08b4519eb540226a09",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimNew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i485d7da04114659b706a6407a9bed34"
+        },
+        "language": "js",
+        "eventType": "onButtonClicked",
+        "actions": [{
+            "id": "ADD_SNIPPET_b729e6846d3741d2bea2a189c2f61a22",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "newClaimID = GenerateRMAID();",
+            "parentId": "INVOKE_SERVICE_cf4a69a4f31e43a3bec5f440c8e0cd7c",
+            "callbackType": "Callback"
+        }, {
+            "id": "INVOKE_SERVICE_f7d2f823a9594db5ab3d161f6a721827",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {
+                "ME_Mapping_ccd709f3b43c40c4ac3d508c9c1ec49d": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ccd709f3b43c40c4ac3d508c9c1ec49d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "fieldValue",
+                        "widgetId": "txtFullName",
+                        "widgetPath": "this.view.txtFullName",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "ff0789fd753c4a2ab478b512800598de",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "c5ccb89719ab4a1bbc68c460d935106f",
+                            "srcWgtKUID": "ue5cf6439a7146b19f1ba24713ee1305",
+                            "root_originalPropertyKey": "text",
+                            "root_wType": "TextField"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "CustomerName",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_d8d615c8d5a14a3c9b90f20daefac7ae": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d8d615c8d5a14a3c9b90f20daefac7ae",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "fieldValue",
+                        "widgetId": "txtPhone",
+                        "widgetPath": "this.view.txtPhone",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "jf0de3603f784999a8988fd5b0dafbed",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "c5ccb89719ab4a1bbc68c460d935106f",
+                            "srcWgtKUID": "ue5cf6439a7146b19f1ba24713ee1305",
+                            "root_originalPropertyKey": "text",
+                            "root_wType": "TextField"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "PhoneNumber",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_ie330e96f34d434bb5ad6cce3c5c50ee": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ie330e96f34d434bb5ad6cce3c5c50ee",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "fieldValue",
+                        "widgetId": "txtEmail",
+                        "widgetPath": "this.view.txtEmail",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "e710651c4a394953bc3ad1c33c647566",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "c5ccb89719ab4a1bbc68c460d935106f",
+                            "srcWgtKUID": "ue5cf6439a7146b19f1ba24713ee1305",
+                            "root_originalPropertyKey": "text",
+                            "root_wType": "TextField"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "Email",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_c94855928d184ebe839317cb2c227eec": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_c94855928d184ebe839317cb2c227eec",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "fieldValue",
+                        "widgetId": "txtOrderNumber",
+                        "widgetPath": "this.view.txtOrderNumber",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "f856001778fb49b2885988ec679ea041",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "c5ccb89719ab4a1bbc68c460d935106f",
+                            "srcWgtKUID": "ue5cf6439a7146b19f1ba24713ee1305",
+                            "root_originalPropertyKey": "text",
+                            "root_wType": "TextField"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "OrderNumber",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_ibd1e98d28e047e4ad4c2fbbab30a278": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ibd1e98d28e047e4ad4c2fbbab30a278",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "fieldValue",
+                        "widgetId": "bcSerialNumber",
+                        "widgetPath": "this.view.bcSerialNumber",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "g317079b96e94326a802a5cc428b8902",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "c7449be009134cb7817eff5ca51d6a8e",
+                            "srcWgtKUID": "d0ea3a7911d0422c93dd381cbf751b18",
+                            "root_originalPropertyKey": "text",
+                            "root_wType": "TextField"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "SerialNumber",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_a063b1954343405db740ce1001c45f56": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_a063b1954343405db740ce1001c45f56",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "ltIssue",
+                        "widgetPath": "this.view.ltIssue",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "f8c2c6bb2e194064979aed618c497447",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "h3a535a34f4140b99d494104fbba28f1",
+                            "srcWgtKUID": "g8af89f7c42d498cafccc9701173fb33",
+                            "root_originalPropertyKey": "text",
+                            "root_wType": "TextArea"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "Description",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_ca0985e7bb594f938b22e4187b5d12ac": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ca0985e7bb594f938b22e4187b5d12ac",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "WarrantyEndDate",
+                        "dataType": "string",
+                        "expression": "\"2028-03-17\"",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_dfed9f6515a14343b04e2dc0381cbf27": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_dfed9f6515a14343b04e2dc0381cbf27",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "WarrantyStartDate",
+                        "dataType": "string",
+                        "expression": "\"2028-03-17\"",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_f53cfb6276e744b8ab4a691e781e3c56": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f53cfb6276e744b8ab4a691e781e3c56",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "productprice",
+                        "dataType": "number",
+                        "collectionId": "productnames",
+                        "propertyPath": "[\"productnames\"][0][\"productprice\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupByCode",
+                            "operationid": "376164"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "Price",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_e2d04830230d4987ae82dfbc0e11b47c": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e2d04830230d4987ae82dfbc0e11b47c",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "imgurl",
+                        "dataType": "string",
+                        "collectionId": "productnames",
+                        "propertyPath": "[\"productnames\"][0][\"imgurl\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupByCode",
+                            "operationid": "376164"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "ProdImgURL",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_c2f8369c8c904dc8bc98a4ed32443a10": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_c2f8369c8c904dc8bc98a4ed32443a10",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "productid",
+                        "dataType": "number",
+                        "collectionId": "productnames",
+                        "propertyPath": "[\"productnames\"][0][\"productid\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupByCode",
+                            "operationid": "376164"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "ProductID",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_da785ebc277f48c19a3b2091bcdeaf1a": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_da785ebc277f48c19a3b2091bcdeaf1a",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "productname",
+                        "dataType": "string",
+                        "collectionId": "productnames",
+                        "propertyPath": "[\"productnames\"][0][\"productname\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupByCode",
+                            "operationid": "376164"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "ProductName",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_aac2f61e7e1d4606ade484941a758b21": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_aac2f61e7e1d4606ade484941a758b21",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "newClaimID",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "RMAID",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_ea4cba290f1c4bdbb9e740c0a32294ef": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ea4cba290f1c4bdbb9e740c0a32294ef",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "selectedValue",
+                        "widgetId": "topResolution",
+                        "widgetPath": "this.view.topResolution",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "e8b244ad66d4414f8a943dfab394d709",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "isSkinProperty": false,
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "e960c327733f4d30a4ddb17ff76f09c8",
+                            "srcWgtKUID": "b7c922e4d776407f89ca64b85bd104be"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "StatusVal",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_da64a9fe39324cbda32deb777efb217e": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_da64a9fe39324cbda32deb777efb217e",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "Status",
+                        "dataType": "string",
+                        "expression": "RMASTATUS.NEW",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneLeapRMA",
+                            "type": "objectsvcs",
+                            "objectname": "RMAClaim",
+                            "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                            "methodname": "create"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_ccd709f3b43c40c4ac3d508c9c1ec49d", "ME_Mapping_d8d615c8d5a14a3c9b90f20daefac7ae", "ME_Mapping_ie330e96f34d434bb5ad6cce3c5c50ee", "ME_Mapping_c94855928d184ebe839317cb2c227eec", "ME_Mapping_ibd1e98d28e047e4ad4c2fbbab30a278", "ME_Mapping_a063b1954343405db740ce1001c45f56", "ME_Mapping_ca0985e7bb594f938b22e4187b5d12ac", "ME_Mapping_dfed9f6515a14343b04e2dc0381cbf27", "ME_Mapping_f53cfb6276e744b8ab4a691e781e3c56", "ME_Mapping_e2d04830230d4987ae82dfbc0e11b47c", "ME_Mapping_c2f8369c8c904dc8bc98a4ed32443a10", "ME_Mapping_da785ebc277f48c19a3b2091bcdeaf1a", "ME_Mapping_aac2f61e7e1d4606ade484941a758b21", "ME_Mapping_ea4cba290f1c4bdbb9e740c0a32294ef", "ME_Mapping_da64a9fe39324cbda32deb777efb217e"],
+            "serviceconfig": {
+                "servicename": "OpusOneLeapRMA",
+                "type": "objectsvcs",
+                "objectname": "RMAClaim",
+                "serviceid": "a4d6fae7-7fe1-4b72-9913-7d5153cee546",
+                "methodname": "create"
+            },
+            "parentId": "INVOKE_SERVICE_cf4a69a4f31e43a3bec5f440c8e0cd7c",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_SERVICE_cf4a69a4f31e43a3bec5f440c8e0cd7c",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_h5e3aefd426f4b53b0ac29f8b69035ad": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_h5e3aefd426f4b53b0ac29f8b69035ad",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "selection",
+                        "widgetId": "lbProduct",
+                        "widgetPath": "this.view.lbProduct",
+                        "widgetType": "UserWidgetInstance",
+                        "dataType": "string",
+                        "itemId": "frmClaimNew",
+                        "widgetKUID": "c64f595ec9ea4fa2a6700f0cc0398466",
+                        "itemKUID": "i485d7da04114659b706a6407a9bed34",
+                        "isSkinProperty": false,
+                        "forkedPlatform": "all",
+                        "passThroughMeta": {
+                            "kuid": "d27e08f7077142e3a8821ac465f02d19",
+                            "srcWgtKUID": "ab81e793c5624d67bc599d5ff4747d6d"
+                        }
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "productCode",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupByCode",
+                            "operationid": "376164"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_h5e3aefd426f4b53b0ac29f8b69035ad"],
+            "serviceconfig": {
+                "servicename": "OpusOneProductLookup",
+                "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                "type": "integration",
+                "operationname": "getProductLookupByCode",
+                "operationid": "376164"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "NAVIGATE_TO_FORM__h99a0f5f66584c41bb8cbb8839f75dbb",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmClaimComplete",
+            "formKUID": "ac4987f9283940a18a1d42e8ca71a39a",
+            "projectName": "OpusOneDemo",
+            "mappings": {
+                "ME_Mapping_f32b203b5d694517bba27a2a0befb719": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f32b203b5d694517bba27a2a0befb719",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "newClaimID",
+                        "propertyKey": "variable_newClaimID",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f32b203b5d694517bba27a2a0befb719"],
+            "parentId": "INVOKE_SERVICE_e48d4306463143efb55497554597a8e4",
+            "callbackType": "Callback",
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": false,
+            "navigationObj": "{\n    \"variable_newClaimID\": newClaimID,\n    \"_meta_\": {\n        \"eventName\": \"onButtonClicked\",\n        \"widgetId\": \"btnSubmit\"\n    }\n}",
+            "isCustomInput": false
+        }, {
+            "id": "INVOKE_SERVICE_e48d4306463143efb55497554597a8e4",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {
+                "ME_Mapping_fa04c66e0df2454a9f13436ef61c1e12": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_fa04c66e0df2454a9f13436ef61c1e12",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "title",
+                        "dataType": "string",
+                        "expression": "\"New Claim ID \" + newClaimID",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneNotif",
+                            "type": "objectsvcs",
+                            "objectname": "Notification",
+                            "serviceid": "cf34d8b4-b13a-4fe9-a34f-94f1e437cc8b",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_b178f15eeea74062891db9de6367ae21": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_b178f15eeea74062891db9de6367ae21",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "message",
+                        "dataType": "string",
+                        "expression": "\"New warranty claim with ID \" + newClaimID + \" has been created.\"",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneNotif",
+                            "type": "objectsvcs",
+                            "objectname": "Notification",
+                            "serviceid": "cf34d8b4-b13a-4fe9-a34f-94f1e437cc8b",
+                            "methodname": "create"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_fa04c66e0df2454a9f13436ef61c1e12", "ME_Mapping_b178f15eeea74062891db9de6367ae21"],
+            "serviceconfig": {
+                "servicename": "OpusOneNotif",
+                "type": "objectsvcs",
+                "objectname": "Notification",
+                "serviceid": "cf34d8b4-b13a-4fe9-a34f-94f1e437cc8b",
+                "methodname": "create"
+            },
+            "parentId": "SHOW_ALERT_cd97209b14964aa8bd9c2af5ac932e52",
+            "callbackType": "True",
+            "enableMappingEditor": true
+        }, {
+            "id": "_cf2e2c771809452ab8dcd9f6bb663e51",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "value",
+                "leftValue": "RMAClaim.opstatus",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "0"
+            }],
+            "parentId": "INVOKE_SERVICE_f7d2f823a9594db5ab3d161f6a721827",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_j245e5630f38488790e08d21ac943651",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": "INVOKE_SERVICE_f7d2f823a9594db5ab3d161f6a721827",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_d2c053f3a6dc4344b619f5a209848de9",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_ERROR",
+            "alertTitle": "Opus One Demo",
+            "alertIcon": "opusoneicon212.png",
+            "alertMessage": "Claim not submitted, our system must have malfunctioned.  Please try again in 5 minutes.",
+            "messageType": "constant",
+            "parentId": "_j245e5630f38488790e08d21ac943651",
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "SHOW_ALERT_cd97209b14964aa8bd9c2af5ac932e52",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": "New Claim Created",
+            "yesLabel": "OK",
+            "alertIcon": "opusoneicon212.png",
+            "alertMessage": "\"New claim with ID \" + newClaimID + \" created.\"",
+            "messageType": "expression",
+            "parentId": "_cf2e2c771809452ab8dcd9f6bb663e51",
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "AS_UWI_ead01f7019c04b9daf87381016b258f7": {
+        "id": "AS_UWI_ead01f7019c04b9daf87381016b258f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUPS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bdb168da519748648a415155fdb8446b"
+        },
+        "language": "js",
+        "eventType": "onSearchClick",
+        "actions": [{
+            "id": "LOADING_INDICATOR_ie977b7c39b340059c76cd60f2264516",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_FUNCTION__e9e66b7e4a5c4a61b2af59b4f2494a41",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createDemoData",
+            "display": "createDemoData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

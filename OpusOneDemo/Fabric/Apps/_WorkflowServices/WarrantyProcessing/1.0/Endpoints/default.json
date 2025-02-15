@@ -1,0 +1,11 @@
+{
+  "apiThrottling": {},
+  "config": {
+    "object": "{\"objectService\":\"OpusOneRMA\",\"object\":\"RMAClaim\",\"field\":\"Status\",\"version\":\"1.0\"}"
+  },
+  "encryptSecureInfo": false,
+  "jsonpath": false,
+  "name": "default",
+  "service": [],
+  "type": "Workflow"
+}

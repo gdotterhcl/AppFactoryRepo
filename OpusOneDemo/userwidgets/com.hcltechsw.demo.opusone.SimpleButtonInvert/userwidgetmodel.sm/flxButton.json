@@ -1,0 +1,74 @@
+{
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_skin_": "s69732f10be446f3a3353f5469c13589",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblItem"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "sb72d22b8a7244b9bcd49c67a0f0c87b"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxButton",
+    "ide_onTouchEnd": "AS_FlexContainer_ae3ff6aa8cc741039dbabdfce5fbbbc5",
+    "ide_onTouchStart": "AS_FlexContainer_hd2a1513ff564bb8826d6a376dd2a60c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c95d1d9b88794f26b381ae56d4923f9f",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "SimpleButtonInvert",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "showZoomControl": false
+        },
+        "zoomLevel": "10"
+    },
+    "calloutTemplateId": "a19a55ba17de4f9ca87d4b39ec5e05bf",
+    "calloutwidth": 100,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "defaultpinimage": "upslogocolor.png",
+    "id": "mapMain",
+    "info": null,
+    "invokedProperty": "maps",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b9494896032f4e21a60b136c0669b6e9",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "mobile": {
+        "calloutTemplateId": "a19a55ba17de4f9ca87d4b39ec5e05bf"
+    },
+    "name": "kony.ui.Map",
+    "parent": "MapPanel",
+    "pf": "userwidgetmodel",
+    "provider": "google",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "zoomlevel": 10
+}

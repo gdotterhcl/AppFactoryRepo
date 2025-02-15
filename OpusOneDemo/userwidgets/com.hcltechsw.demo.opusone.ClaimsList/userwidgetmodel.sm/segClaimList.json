@@ -1,0 +1,367 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_data_": [
+        {
+            "imgItem": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "microphone2.png",
+                "type": "Image"
+            },
+            "lblClaimNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Claim Number",
+                "type": "Label"
+            },
+            "lblClaimNumberVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "15648962",
+                "type": "Label"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shure KSM44A",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In Process",
+                "type": "Label"
+            },
+            "lblWarrantyDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Warranty Date",
+                "type": "Label"
+            },
+            "lblWarrantyDateVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "01/05/2025",
+                "type": "Label"
+            }
+        },
+        {
+            "imgItem": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "piano.png",
+                "type": "Image"
+            },
+            "lblClaimNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Claim Number",
+                "type": "Label"
+            },
+            "lblClaimNumberVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "15944224",
+                "type": "Label"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Steinway Model B",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In Process",
+                "type": "Label"
+            },
+            "lblWarrantyDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Warranty Date",
+                "type": "Label"
+            },
+            "lblWarrantyDateVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12/18/2026",
+                "type": "Label"
+            }
+        },
+        {
+            "imgItem": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "cable.png",
+                "type": "Image"
+            },
+            "lblClaimNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Claim Number",
+                "type": "Label"
+            },
+            "lblClaimNumberVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "18094412",
+                "type": "Label"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shure C25J",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Repaired",
+                "type": "Label"
+            },
+            "lblWarrantyDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Warranty Date",
+                "type": "Label"
+            },
+            "lblWarrantyDateVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "06/19/2025",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segClaimList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a5cf30044b88458faf9245c67224221f",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "microphone2.png",
+                    "type": "Image"
+                },
+                "lblClaimNumber": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Claim Number",
+                    "type": "Label"
+                },
+                "lblClaimNumberVal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "15648962",
+                    "type": "Label"
+                },
+                "lblProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Shure KSM44A",
+                    "type": "Label"
+                },
+                "lblStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "In Process",
+                    "type": "Label"
+                },
+                "lblWarrantyDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Warranty Date",
+                    "type": "Label"
+                },
+                "lblWarrantyDateVal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "01/05/2025",
+                    "type": "Label"
+                }
+            },
+            {
+                "imgItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "piano.png",
+                    "type": "Image"
+                },
+                "lblClaimNumber": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Claim Number",
+                    "type": "Label"
+                },
+                "lblClaimNumberVal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "15944224",
+                    "type": "Label"
+                },
+                "lblProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Steinway Model B",
+                    "type": "Label"
+                },
+                "lblStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "In Process",
+                    "type": "Label"
+                },
+                "lblWarrantyDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Warranty Date",
+                    "type": "Label"
+                },
+                "lblWarrantyDateVal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "12/18/2026",
+                    "type": "Label"
+                }
+            },
+            {
+                "imgItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cable.png",
+                    "type": "Image"
+                },
+                "lblClaimNumber": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Claim Number",
+                    "type": "Label"
+                },
+                "lblClaimNumberVal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "18094412",
+                    "type": "Label"
+                },
+                "lblProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Shure C25J",
+                    "type": "Label"
+                },
+                "lblStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Repaired",
+                    "type": "Label"
+                },
+                "lblWarrantyDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Warranty Date",
+                    "type": "Label"
+                },
+                "lblWarrantyDateVal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "06/19/2025",
+                    "type": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "g5de86dccb9245729ea241bdc563d6cf",
+        "rowtemplate": "WarrantyClaim",
+        "widgetdatamap": {
+            "WarrantyClaim": "WarrantyClaim",
+            "flxClaimNumber": "flxClaimNumber",
+            "flxImage": "flxImage",
+            "flxNameWarrVert": "flxNameWarrVert",
+            "flxNameWarranty": "flxNameWarranty",
+            "flxProductStatus": "flxProductStatus",
+            "flxStatus": "flxStatus",
+            "flxWarrantyClaim": "flxWarrantyClaim",
+            "flxWarrantyClaimContent": "flxWarrantyClaimContent",
+            "flxWarrantyDate": "flxWarrantyDate",
+            "imgItem": "imgItem",
+            "lblClaimNumber": "lblClaimNumber",
+            "lblClaimNumberVal": "lblClaimNumberVal",
+            "lblProductName": "lblProductName",
+            "lblStatus": "lblStatus",
+            "lblWarrantyDate": "lblWarrantyDate",
+            "lblWarrantyDateVal": "lblWarrantyDateVal"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxClaimsList",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "s8f774dbbe1844908b7e8c7c70708b56",
+    "rowskin": "s54bb731f2914e8a90510a6802e42673",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s3809c46ec49412394d2cf839a3261c9",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa64",
+    "separatorrequired": true,
+    "separatorthickness": 12,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "WarrantyClaim": "WarrantyClaim",
+        "flxClaimNumber": "flxClaimNumber",
+        "flxImage": "flxImage",
+        "flxNameWarrVert": "flxNameWarrVert",
+        "flxNameWarranty": "flxNameWarranty",
+        "flxProductStatus": "flxProductStatus",
+        "flxStatus": "flxStatus",
+        "flxWarrantyClaim": "flxWarrantyClaim",
+        "flxWarrantyClaimContent": "flxWarrantyClaimContent",
+        "flxWarrantyDate": "flxWarrantyDate",
+        "imgItem": "imgItem",
+        "lblClaimNumber": "lblClaimNumber",
+        "lblClaimNumberVal": "lblClaimNumberVal",
+        "lblProductName": "lblProductName",
+        "lblStatus": "lblStatus",
+        "lblWarrantyDate": "lblWarrantyDate",
+        "lblWarrantyDateVal": "lblWarrantyDateVal"
+    }
+}

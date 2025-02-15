@@ -1,0 +1,31 @@
+{
+    "AS_UWI_bd5ff4a785694cbfb4af198b25576e43": {
+        "id": "AS_UWI_bd5ff4a785694cbfb4af198b25576e43",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "lat",
+            "datatype": "collection"
+        }, {
+            "name": "lon",
+            "datatype": "collection"
+        }],
+        "language": "js",
+        "eventType": "onLocationReceived",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onLocationReceived_i5c8ae1dd9014da79f0ce28fc606a59f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createHomePoint",
+            "display": "createHomePoint",
+            "inputparams": [{
+                "name": "latVal",
+                "value": " lat"
+            }, {
+                "name": "lonVal",
+                "value": " lon"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

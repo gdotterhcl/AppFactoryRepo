@@ -1,0 +1,139 @@
+{
+    "classname": "SearchUsingLocation",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b7a4c94a1b3046928630b4e9656e1400",
+                    "paramList": [
+                        {
+                            "name": "lat"
+                        },
+                        {
+                            "name": "lon"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onLocationReceived",
+                    "pw": {
+                        "displayName": "onLocationReceived",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d64a18582ca14f948e5739d58d472c90",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f559d0750f8546e6938e07c9e118d0b0",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onSearchClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSearchClick",
+                        "srcWidget": "flxSearch",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i00706d784384e39aa75843131539cbc",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "g311e996ce4b460c83f90831b9a68800",
+                    "originalPropertyKey": "mapAPIKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "mapAPIKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Google Maps API Key",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d64a18582ca14f948e5739d58d472c90",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "h7c34e190a284ad7bccdbf723c723a96",
+                    "originalPropertyKey": "latitude",
+                    "propertyIndex": 2,
+                    "propertyKey": "latitude",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Latitude",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d64a18582ca14f948e5739d58d472c90",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d47dffe235a848c38ac73b46e975096c",
+                    "originalPropertyKey": "longitude",
+                    "propertyIndex": 3,
+                    "propertyKey": "longitude",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Longitude",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d64a18582ca14f948e5739d58d472c90",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "fc4700b5ea074493a0ae3662c16a1695",
+                    "originalPropertyKey": "cityState",
+                    "propertyIndex": 4,
+                    "propertyKey": "cityState",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "City / State",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d64a18582ca14f948e5739d58d472c90",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

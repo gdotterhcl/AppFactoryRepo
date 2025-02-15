@@ -1,0 +1,88 @@
+{
+    "classname": "WarrantyRMA",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "edc5c09290a148398ce1853f0f3cb600",
+                    "originalPropertyKey": "clearQRCode",
+                    "propertyKey": "clearQRCode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "customPropInfo": {
+                            "type": "event"
+                        },
+                        "displayName": "clearQRCode",
+                        "srcWidget": "QRCodeImage",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "fa193c6ec5a04b709d277c9714812d7f",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c2d55a32386348038a6feffd76a3cf10",
+                    "originalPropertyKey": "rmaId",
+                    "propertyIndex": 1,
+                    "propertyKey": "rmaId",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "RMA ID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e04d08e8e3354450ab7231f70f067891",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "bc041ead605f42e1929c9d651a8db4a9",
+                    "originalPropertyKey": "shippingAddress",
+                    "propertyIndex": 2,
+                    "propertyKey": "shippingAddress",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Shipping Address",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e04d08e8e3354450ab7231f70f067891",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

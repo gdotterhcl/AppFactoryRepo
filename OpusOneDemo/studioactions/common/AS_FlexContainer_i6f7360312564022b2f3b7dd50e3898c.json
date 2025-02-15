@@ -1,0 +1,51 @@
+{
+    "AS_FlexContainer_i6f7360312564022b2f3b7dd50e3898c": {
+        "id": "AS_FlexContainer_i6f7360312564022b2f3b7dd50e3898c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY___b1b54358a5c14a32b03d23f8b7a34d8e",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "COMPONENT",
+            "itemId": "userwidgetmodel",
+            "widgetId": "flxButton",
+            "propertyName": "skin",
+            "propertyValue": "flxbutton",
+            "itemKUID": "a82576ebe2ae4e56af509f18f458e824",
+            "widgetKUID": "j886deed037941129765b84635b35ec0",
+            "skinKUID": "s38577e9f8644d6b84bbd93bebce00a0",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.flxButton"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___cdfccfb1eb66416788490dc0ede5e67c",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "COMPONENT",
+            "itemId": "userwidgetmodel",
+            "widgetId": "lblItem",
+            "propertyName": "skin",
+            "propertyValue": "lblbutton",
+            "itemKUID": "a82576ebe2ae4e56af509f18f458e824",
+            "widgetKUID": "be69877e693945dfa3312ca5255fe9b6",
+            "skinKUID": "s14a571ecc4c47ffa21c399ca1756c60",
+            "isSkinProperty": true,
+            "wType": "Label",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.lblItem"
+        }]
+    }
+}

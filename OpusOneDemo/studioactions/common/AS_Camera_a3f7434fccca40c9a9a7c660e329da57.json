@@ -1,0 +1,25 @@
+{
+    "AS_Camera_a3f7434fccca40c9a9a7c660e329da57": {
+        "id": "AS_Camera_a3f7434fccca40c9a9a7c660e329da57",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "metadata"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u5876c3411d840d0ab2f5edd986bd874"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_df1b854c92a84b72a4a152f4f32ad439",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.imgAdded.base64 = self.view.cameraAdd.base64;\nself.view.flxAddPhoto.isVisible = false;\nself.view.flxPhotoContainer.isVisible = true;",
+            "parentId": null
+        }]
+    }
+}

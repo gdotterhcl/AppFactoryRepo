@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "seaaa958612a4f06804908fc6c57f278",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "ListDivider1",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b16f637951184b59b8db4368c261a5f4",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "fscClaimFields",
+    "pf": "frmClaimNew",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "d45a5c26986d43398f856d80cb9913e7",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

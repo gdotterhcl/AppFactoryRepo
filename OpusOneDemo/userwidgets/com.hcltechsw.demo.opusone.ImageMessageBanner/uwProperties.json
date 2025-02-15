@@ -1,0 +1,131 @@
+{
+    "classname": "ImageMessageBanner",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i4604a1f8ba040bc8d72deefed5cc29d",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image Source",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgPanel",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "b14be49b5ecc48df8ff2e11ab685a5e9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ee96840e4a75479fb4368e0a2d22001d",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isVisibleBanner",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {
+                            "conditions": [
+                                {
+                                    "hideProps": [],
+                                    "value": false
+                                }
+                            ],
+                            "properties": []
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "rtxBanner",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "f5c9c32bc38344c59bf3a048535f803c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d76cade213014af7adf2cbb9c3ead760",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "rtxBanner",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "f5c9c32bc38344c59bf3a048535f803c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dd9a485de8f846fb9d122ffbfe75275c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "rtxBanner",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "f5c9c32bc38344c59bf3a048535f803c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

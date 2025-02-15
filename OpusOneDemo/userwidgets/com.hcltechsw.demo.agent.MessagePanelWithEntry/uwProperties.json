@@ -1,0 +1,140 @@
+{
+    "classname": "MessagePanelWithEntry",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d6ee70f5d8ad49caabd986f6c96e90b0",
+                    "paramList": [
+                        {
+                            "name": "textMsg"
+                        },
+                        {
+                            "name": "timeAMPM"
+                        },
+                        {
+                            "name": "msgType"
+                        }
+                    ],
+                    "propertyKey": "addMessage",
+                    "pw": {
+                        "displayName": "addMessage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ceef76d1b2c6491aa76415e53c9d7a9f",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i38e715d4cc946f4b864958595eb3e49",
+                    "paramList": [],
+                    "propertyKey": "clearAllMessages",
+                    "pw": {
+                        "displayName": "clearAllMessages",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ceef76d1b2c6491aa76415e53c9d7a9f",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "be76cca0488c4dafae80b8739812fe02",
+                    "paramList": [
+                        {
+                            "name": "showPanel"
+                        },
+                        {
+                            "name": "msgType"
+                        }
+                    ],
+                    "propertyKey": "toggleTypingPanel",
+                    "pw": {
+                        "displayName": "toggleTypingPanel",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ceef76d1b2c6491aa76415e53c9d7a9f",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f5cfcf0fe4514153991db77caa90f55b",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onSendMessage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSendMessage",
+                        "srcWidget": "flxButtonR",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "dc997b085bc641629d9d96260265daa0",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j6a7290e03374ece8f05a68e29f52c0a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Message Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtMessageEntry",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "hd7765ca32d44de3b96926adbfcfef1c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "c43b59631b7f47449af9f97c64966841",
+                    "propertyKey": "MessageList",
+                    "srcWgtKUID": "e75df1fa18844a0db5f4faf1bee3a934"
+                }
+            ],
+            "passthrough": [
+                {
+                    "kuid": "ecac1d3b73ea47c1a073dc85f1a77f5a",
+                    "placeholder": "Add Messages Here",
+                    "propertyKey": "MessageList",
+                    "srcWgtKUID": "e75df1fa18844a0db5f4faf1bee3a934"
+                }
+            ]
+        }
+    },
+    "namespace": "com.hcltechsw.demo.agent",
+    "version": "1.0.0"
+}

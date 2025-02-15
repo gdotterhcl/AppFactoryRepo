@@ -1,0 +1,32 @@
+{
+    "AS_UWI_d8d1cb10e184441cb762694f9fbabc5b": {
+        "id": "AS_UWI_d8d1cb10e184441cb762694f9fbabc5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "lat",
+            "datatype": "collection"
+        }, {
+            "name": "lon",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmUPS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bdb168da519748648a415155fdb8446b"
+        },
+        "language": "js",
+        "eventType": "onLocationReceived",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__gf8c0eae9448421a9132cfde531f4bc6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createHomePoint",
+            "display": "createHomePoint",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

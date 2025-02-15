@@ -1,0 +1,18 @@
+{
+    "AS_UWI_dd138826b9cb4428a42f050d240018da": {
+        "id": "AS_UWI_dd138826b9cb4428a42f050d240018da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "hf9bfc7a156c43f7911c6831b43e66bd"
+        },
+        "language": "js",
+        "eventType": "onSearchClick",
+        "actions": []
+    }
+}

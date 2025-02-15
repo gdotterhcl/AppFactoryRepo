@@ -1,0 +1,5 @@
+{
+  "serviceType" : "workflow",
+  "mapType" : "java.util.HashMap",
+  "empty" : true
+}

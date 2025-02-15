@@ -1,0 +1,561 @@
+{
+    "classname": "LongTextEntry",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [
+                "iOS",
+                "Android"
+            ],
+            "properties": [
+                "General",
+                "Look",
+                "Label",
+                "TextBox",
+                "Padding",
+                "iOS",
+                "Android",
+                "WIndows",
+                "SPA",
+                "Skins"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Label",
+                    "kuid": "b517e790ee3a40fb8afcc4779eca67d2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblFieldText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Label Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e9ae704fc2e54c4ea9fbaea7581663ee"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Label",
+                    "kuid": "ba0d070fb75f4dbab963e8202097c309",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isRequired",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Required Flag",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblFieldReq",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ec2723b44ef044c2bf6f93bd75c30c99"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Label",
+                    "kuid": "e75374969ba34b858c43f041ce22947b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "lblFieldSubtitleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Subtitle Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblFieldSubtitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bb954e8c7a7040ac98a224e5324aefb8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "TextBox",
+                    "kuid": "h3a535a34f4140b99d494104fbba28f1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtLongValue",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "g8af89f7c42d498cafccc9701173fb33"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Padding",
+                    "kuid": "g4941e1340844700a54cf606051ea4ec",
+                    "originalPropertyKey": "left",
+                    "propertyIndex": 5,
+                    "propertyKey": "leftPadding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Left",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxTextEntry",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b72ab3a82a9640bfa01d218dd6c815c4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Padding",
+                    "kuid": "f253308c43004fc8aaf9c27c85ee9f42",
+                    "originalPropertyKey": "right",
+                    "propertyIndex": 6,
+                    "propertyKey": "rightPadding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Right",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxTextEntry",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b72ab3a82a9640bfa01d218dd6c815c4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Padding",
+                    "kuid": "d3e961a21a424617a924bdc9b2d81d83",
+                    "originalPropertyKey": "top",
+                    "propertyIndex": 7,
+                    "propertyKey": "topPadding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Top",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxTextEntry",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b72ab3a82a9640bfa01d218dd6c815c4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Padding",
+                    "kuid": "c49b571e5120403abf4bd7b0e1f5cd5a",
+                    "originalPropertyKey": "bottom",
+                    "propertyIndex": 8,
+                    "propertyKey": "lblbottomPadding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Label to Textbox Padding",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e9ae704fc2e54c4ea9fbaea7581663ee"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Padding",
+                    "kuid": "a18252505664450d83dd6b4e5fc05a76",
+                    "originalPropertyKey": "bottom",
+                    "propertyIndex": 9,
+                    "propertyKey": "bottomPadding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Bottom",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxTextEntry",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b72ab3a82a9640bfa01d218dd6c815c4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Skins",
+                    "kuid": "cd155ed6dfd44367827b5b7c9abd0345",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 10,
+                    "propertyKey": "lblFieldNameSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Label Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e9ae704fc2e54c4ea9fbaea7581663ee"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Skins",
+                    "kuid": "ac86c491a5234fd795aea962fa56277c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 11,
+                    "propertyKey": "lblSubtitleSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Subtitle Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblFieldSubtitle",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bb954e8c7a7040ac98a224e5324aefb8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Skins",
+                    "kuid": "ca9a778044d6460e85ad4f5b9b2e3b28",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 12,
+                    "propertyKey": "textSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtLongValue",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "g8af89f7c42d498cafccc9701173fb33"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Skins",
+                    "kuid": "a2b1548d78e6458385e1ae4c72fac75d",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "textFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Focus Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtLongValue",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "g8af89f7c42d498cafccc9701173fb33"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

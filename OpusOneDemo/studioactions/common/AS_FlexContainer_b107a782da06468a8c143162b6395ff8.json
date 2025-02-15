@@ -1,0 +1,50 @@
+{
+    "AS_FlexContainer_b107a782da06468a8c143162b6395ff8": {
+        "id": "AS_FlexContainer_b107a782da06468a8c143162b6395ff8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "uae43943819c4f04b9a065031119629c"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d7100803c1eb4de8b6fbdb3913a24555",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleSelection",
+            "display": "toggleSelection",
+            "inputparams": [{
+                "name": "bOn",
+                "value": "true"
+            }],
+            "parentId": "_e08671136d2742e99e100a6628a558fd",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "_e08671136d2742e99e100a6628a558fd",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetskin",
+                "leftValue": "this.view.flxOptionPanel.flxOptionButton.skin",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "this.BUTTON.OFF",
+                "leftWidgetKUID": "a5fa52cb785a4acca4bc263815db9aa0"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }]
+    }
+}

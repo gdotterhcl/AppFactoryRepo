@@ -1,0 +1,28 @@
+{
+    "AS_FlexScrollContainer_ce8e23c876784101bedf42c9e0f4279e": {
+        "id": "AS_FlexScrollContainer_ce8e23c876784101bedf42c9e0f4279e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u564b33345184c7796c6e549636b4c17"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a9e719c4585945858377975ffa8ef3a2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getClaims",
+            "display": "getClaims",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

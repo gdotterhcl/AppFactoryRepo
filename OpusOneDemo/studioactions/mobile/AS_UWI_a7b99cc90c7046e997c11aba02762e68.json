@@ -1,0 +1,37 @@
+{
+    "AS_UWI_a7b99cc90c7046e997c11aba02762e68": {
+        "id": "AS_UWI_a7b99cc90c7046e997c11aba02762e68",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "result",
+            "datatype": "collection"
+        }, {
+            "name": "format",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca871533f2b142ff804ef597941ae79f"
+        },
+        "language": "js",
+        "eventType": "afterScan",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ed362dd4f4a34c34900a13c3be7bcad6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "processScan",
+            "display": "processScan",
+            "inputparams": [{
+                "name": "scannedValue",
+                "value": "result"
+            }, {
+                "name": "format",
+                "value": "format"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

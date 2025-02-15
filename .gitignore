@@ -1,0 +1,15 @@
+.backup/*
+.cordova/*
+.exports/*
+.fp/*
+.imports/*
+.intellisense/*
+.plugins/*
+.temp/*
+.webapps/*
+__MACOSX/*
+bundles/*
+temp/*
+webapps/*
+Sample/*
+*.zip

@@ -1,0 +1,35 @@
+{
+    "AS_Button_a7855f12c8ea49bc90475cb87722ccc8": {
+        "id": "AS_Button_a7855f12c8ea49bc90475cb87722ccc8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "dd760b1597504e26b997c2b8fb3beb17"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "SHOW_ALERT_i142d6b45129417ea14678a5420c05d7",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": "Button",
+            "yesLabel": "OK",
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Button Clicked",
+            "messageType": "constant",
+            "alertHandler": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

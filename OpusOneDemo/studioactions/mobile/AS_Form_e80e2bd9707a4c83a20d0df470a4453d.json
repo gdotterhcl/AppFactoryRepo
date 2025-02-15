@@ -1,0 +1,22 @@
+{
+    "AS_Form_e80e2bd9707a4c83a20d0df470a4453d": {
+        "id": "AS_Form_e80e2bd9707a4c83a20d0df470a4453d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i912301d6dc24b48bddcd8afcb6b986a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_ebbc78da41c24ee8be057ebaba7632dd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (self.isLoginDisplayed === false)\n{\n  self.view.flxLoginFields.opacity = 0;\n  //self.view.flxAnonFunctions.opacity = 0;\n}"
+        }]
+    }
+}

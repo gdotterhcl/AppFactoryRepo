@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s3c56a3be3304a4c9d7d3b2e2391c8b8",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "breakpointInfo": {
+        "b1": {
+            "width": 1366
+        },
+        "b2": {
+            "width": 1024
+        },
+        "b3": {
+            "width": 640
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "MLKitBCScanner"
+    ],
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "iPhone11",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "globalUserWidgetRefs": [
+        "ua37c94d875242e4ab1205449ab3a3a2",
+        "u3ddc50cb93c42d298d250abef63874c",
+        "ubd940a354b54ee08816e58e685f047c",
+        "ua7bf111ee354ae99fb1c5bbc2b195c5",
+        "u8cd3f03459a4858ac1374c40378dab4",
+        "ud9bdb95d4f740abaf9e4be5d5b76f49",
+        "ub7685bf4fae450b804a5938a07ce895",
+        "u36524b437934198a5d0e003658aebc1",
+        "uf05d17a2770412aa3b0af48ee2e22b6",
+        "uf1a9e7db64c498893c44caa2b908cf7",
+        "u9d4069a33574da9958ba91d3d94f3b0",
+        "u98673a7c93a4fda9444c4b4daed1c53",
+        "ua03a1c9df864912a822d355568f3f2b",
+        "u291fc3210dc4315b80f3e1854a036b4",
+        "ucbc9920f09b4aeda372fc3af3e8ac7e",
+        "u38ab8d5520f40d5b4a3d0a76f9e9dda",
+        "u73431bbd9af442296f73aec581c0aae",
+        "ube0b9266f1c4b71846a986caa7fd34e",
+        "u4548a1486b84c53b981aebebc39aad4",
+        "u8ac8b2909c941d189076b99f798d6bc",
+        "u01a40f818964b0eb3a93f7790a8cd59",
+        "u199b5a578cd47d49bd25cf99badde58",
+        "u04ee1e1a48f45bb8a7c80211be04a9c",
+        "u82fe2067676420e91ba7e90db114215"
+    ],
+    "id": "userwidgetmodel",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u9b7bf19ec494d69bc5014c2f3da4fba",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhone11",
+    "prevPlatform": "iphone",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainscrollposition": false,
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

@@ -1,0 +1,59 @@
+{
+    "AS_Form_a469732c4a65498e92d65a1a1da6136e": {
+        "id": "AS_Form_a469732c4a65498e92d65a1a1da6136e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimComplete",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ac4987f9283940a18a1d42e8ca71a39a"
+        },
+        "language": "js",
+        "eventType": "onNavigate",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__ie190eb98a7541d2a1257bdd1406695c",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmClaimComplete",
+            "widgetId": "WarrantyRMA",
+            "propertyName": "rmaId",
+            "propertyValue": "newClaimID",
+            "itemKUID": "ac4987f9283940a18a1d42e8ca71a39a",
+            "widgetKUID": "f7b1c5f64ab54bc6ac5986b53612d295",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": "_da7cf282e11f480b8524e82cc0f69547",
+            "widgetPath": "this.view.WarrantyRMA"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__d2f0a3693e3f4c6897c0ecc5a4a6604c",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmClaimComplete",
+            "widgetId": "WarrantyRMA",
+            "propertyName": "shippingAddress",
+            "propertyValue": "\"HCL Software 2600 Great America Way Suite 401 Santa Clara CA 95054\"",
+            "itemKUID": "ac4987f9283940a18a1d42e8ca71a39a",
+            "widgetKUID": "f7b1c5f64ab54bc6ac5986b53612d295",
+            "isSkinProperty": false,
+            "wType": "UserWidgetInstance",
+            "forkedPlatform": "all",
+            "parentId": "_da7cf282e11f480b8524e82cc0f69547",
+            "widgetPath": "this.view.WarrantyRMA"
+        }, {
+            "id": "_da7cf282e11f480b8524e82cc0f69547",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "this.getPreviousForm() === FORMS.CLAIMNEW"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }]
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "AS_FlexContainer_fccf977c5e1244abb4e27adc0602d62b": {
+        "id": "AS_FlexContainer_fccf977c5e1244abb4e27adc0602d62b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "f8b4a73ec3c942e699100e4f10fe8ca3"
+        },
+        "language": "js",
+        "eventType": "onMapping",
+        "actions": [{
+            "id": "_ed7f01556569470d974efe32d785329f",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "this.view.flxDropdownField.lbDropdown.selectedKey",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "null",
+                "leftWidgetKUID": "eff6bd0e167d41f4880c9e753bd38b02"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "LOADING_INDICATOR_e39b579ccc704d5db9985b2f01165686",
+            "selectedOption": "show",
+            "parentId": "_ed7f01556569470d974efe32d785329f",
+            "type": "LOADING_INDICATOR",
+            "callbackType": null,
+            "skin": "slFbox",
+            "skinKUID": "seaaa958612a4f06804908fc6c57f278",
+            "position": "constants.LOADING_SCREEN_POSITION_ONLY_CENTER",
+            "isBlocked": "true",
+            "showProgressIndicator": "true",
+            "text": "Fetching Product Data..."
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE_d741d297cf9d4cf6ade851f6cf838c67",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "OpusOneProductLookup",
+                "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                "type": "integration",
+                "operationname": "getProductLookupData",
+                "operationid": "374158"
+            },
+            "parentId": "_ed7f01556569470d974efe32d785329f",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "ADD_MAPPING_bd2e5512b6454b19b74ced37ae895324",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_a8e73aa38b3c45ff8ed97ee3621b3221": {
+                    "channel": "common",
+                    "id": "ME_Mapping_a8e73aa38b3c45ff8ed97ee3621b3221",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "productnames",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupData",
+                            "operationid": "374158"
+                        }
+                    },
+                    "target": {
+                        "type": "Components",
+                        "propertyName": "masterData",
+                        "widgetId": "lbDropdown",
+                        "widgetPath": "this.view.lbDropdown",
+                        "widgetType": "ListBox",
+                        "dataType": "collection",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "eff6bd0e167d41f4880c9e753bd38b02",
+                        "itemKUID": "f8b4a73ec3c942e699100e4f10fe8ca3",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_d88651bd4e4d4405a8f0de76bd9186bb": {
+                    "channel": "common",
+                    "id": "ME_Mapping_d88651bd4e4d4405a8f0de76bd9186bb",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "productcode",
+                        "dataType": "string",
+                        "collectionId": "productnames",
+                        "propertyPath": "[\"productnames\"][0][\"productcode\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupData",
+                            "operationid": "374158"
+                        }
+                    },
+                    "target": {
+                        "type": "Components",
+                        "propertyName": "key",
+                        "widgetId": "lbDropdown",
+                        "widgetPath": "this.view.lbDropdown",
+                        "widgetType": "ListBox",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "parentMappingId": "ME_Mapping_a8e73aa38b3c45ff8ed97ee3621b3221",
+                        "collectionId": "masterData",
+                        "widgetKUID": "eff6bd0e167d41f4880c9e753bd38b02",
+                        "itemKUID": "f8b4a73ec3c942e699100e4f10fe8ca3",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_c3ddfd1f0fcb490ca03e53080ccbdc16": {
+                    "channel": "common",
+                    "id": "ME_Mapping_c3ddfd1f0fcb490ca03e53080ccbdc16",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "productname",
+                        "dataType": "string",
+                        "collectionId": "productnames",
+                        "propertyPath": "[\"productnames\"][0][\"productname\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpusOneProductLookup",
+                            "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                            "type": "integration",
+                            "operationname": "getProductLookupData",
+                            "operationid": "374158"
+                        }
+                    },
+                    "target": {
+                        "type": "Components",
+                        "propertyName": "value",
+                        "widgetId": "lbDropdown",
+                        "widgetPath": "this.view.lbDropdown",
+                        "widgetType": "ListBox",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "parentMappingId": "ME_Mapping_a8e73aa38b3c45ff8ed97ee3621b3221",
+                        "collectionId": "masterData",
+                        "widgetKUID": "eff6bd0e167d41f4880c9e753bd38b02",
+                        "itemKUID": "f8b4a73ec3c942e699100e4f10fe8ca3",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_a8e73aa38b3c45ff8ed97ee3621b3221", "ME_Mapping_d88651bd4e4d4405a8f0de76bd9186bb", "ME_Mapping_c3ddfd1f0fcb490ca03e53080ccbdc16"],
+            "parentId": "INVOKE_ASYNC_SERVICE_d741d297cf9d4cf6ade851f6cf838c67",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_jf5486b654ad49a8a5db4bb6eae173ad",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_ASYNC_SERVICE_d741d297cf9d4cf6ade851f6cf838c67",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }]
+    }
+}

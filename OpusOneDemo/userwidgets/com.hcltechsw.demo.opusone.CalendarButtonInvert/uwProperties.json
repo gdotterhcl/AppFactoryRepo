@@ -1,0 +1,110 @@
+{
+    "classname": "CalendarButtonInvert",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a8b9e5c9db674f2f890f4e04f38a3685",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onButtonClicked",
+                    "pw": {
+                        "displayName": "onButtonClicked",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b095db3151dc4b1ca478e37b37596a01",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b652adc79d0241e2b80e0a982a404faf",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblItem",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "be69877e693945dfa3312ca5255fe9b6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "afa211556a854198859898485fa414ea",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblItem",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "be69877e693945dfa3312ca5255fe9b6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gaa7db7e30ed466bab4a506786da31cd",
+                    "originalPropertyKey": "i18n_text",
+                    "propertyIndex": 4,
+                    "propertyKey": "i18nText",
+                    "pw": {
+                        "access": "constructor",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeys": [
+                            "text"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "de28b05716a84fb3ac18417edd194158"
+                        ],
+                        "displayName": "i18n Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblItem",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "be69877e693945dfa3312ca5255fe9b6"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

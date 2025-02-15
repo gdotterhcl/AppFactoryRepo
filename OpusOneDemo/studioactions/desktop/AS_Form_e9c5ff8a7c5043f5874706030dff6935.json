@@ -1,0 +1,24 @@
+{
+    "AS_Form_e9c5ff8a7c5043f5874706030dff6935": {
+        "id": "AS_Form_e9c5ff8a7c5043f5874706030dff6935",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRMA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d8a603a752b94f798ec1692f1a28e3d0"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": [{
+            "id": "ADD_SNIPPET_d6897695d3f04ffb970e8aa1df5a28f8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.ForHeader.onTabChange = function(eventObject)\n{\n  if(eventObject.tabIndex === 0 || eventObject.tabIndex === '0') {\n    new voltmx.mvc.Navigation('frmLanding').navigate();\n  }\n\t\n};",
+            "parentId": null
+        }]
+    }
+}

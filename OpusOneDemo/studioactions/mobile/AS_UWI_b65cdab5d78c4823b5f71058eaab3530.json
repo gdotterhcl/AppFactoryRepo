@@ -1,0 +1,40 @@
+{
+    "AS_UWI_b65cdab5d78c4823b5f71058eaab3530": {
+        "id": "AS_UWI_b65cdab5d78c4823b5f71058eaab3530",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onCloseClick",
+        "actions": [{
+            "id": "_ide_onCloseClick_i64cfbc916344ec09e4f4ec803d6110d",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmAI",
+            "widgetId": "LeftMenu",
+            "itemKUID": "i5dbfe7b13c2491cb61f2993a3833e83",
+            "widgetKUID": "bf390c6fce24402d97d0c016446c2111",
+            "wType": "UserWidgetInstance",
+            "animationObject": {
+                "left": "-100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION_j6a1092b339540b7a55f9b565427969a",
+            "displayAnimationId": "MOVE_ACTION_j6a1092b339540b7a55f9b565427969a",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.LeftMenu"
+        }]
+    }
+}

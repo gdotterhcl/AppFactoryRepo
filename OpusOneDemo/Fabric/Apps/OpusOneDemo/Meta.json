@@ -1,0 +1,67 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "OpusOneDemo",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "googleMaps",
+    "version" : "1.1",
+    "etag" : "31504b37-8e3d-4c79-a2d5-1619a9a03658"
+  }, {
+    "name" : "LeapRMAClaim",
+    "version" : "1.0",
+    "etag" : "6e0fb7eb-1bd6-4545-ba05-659f87cc7d4d"
+  }, {
+    "name" : "OpenAIChatGPTGD",
+    "version" : "1.0",
+    "etag" : "4ee6aec5-babe-462f-98e2-73abccbb4703"
+  }, {
+    "name" : "OpusOneProductLookup",
+    "version" : "1.0",
+    "etag" : "ddb73a57-5241-42bb-9e41-e205d4d654df"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "Data-Inventory-Warehouse",
+    "version" : "1.0",
+    "etag" : "e31eb230-5f6c-48fd-87a2-d631f47d202c"
+  }, {
+    "name" : "Data-SalesYonY",
+    "version" : "1.0",
+    "etag" : "fa31f1c2-d7d2-4172-9cb7-01f4d764e8eb"
+  }, {
+    "name" : "Data-Warranty-ByCategory",
+    "version" : "1.0",
+    "etag" : "7a8729b1-4ce9-45eb-86bc-fc8febe0d187"
+  }, {
+    "name" : "OpusOneLeapRMA",
+    "version" : "1.0",
+    "etag" : "6618180e-f211-46e9-91a3-786fbeec64dd"
+  }, {
+    "name" : "OpusOneNotif",
+    "version" : "1.0",
+    "etag" : "a2dcd121-3ea8-4af0-bb40-417f5666dad9"
+  }, {
+    "name" : "OpusOneProduct",
+    "version" : "1.0",
+    "etag" : "e71ae5f8-128e-421e-b502-fa2e9ee61a72"
+  }, {
+    "name" : "OpusOneRMA",
+    "version" : "1.0",
+    "etag" : "43fcf605-79b4-4d12-b70f-e0a524968148"
+  }, {
+    "name" : "OpusOneSalesInfo",
+    "version" : "1.0",
+    "etag" : "63215293-fad6-40fc-bddd-8fba8c661492"
+  } ],
+  "workflowSvcs" : [ {
+    "name" : "WarrantyProcessing",
+    "version" : "1.0",
+    "etag" : "84cd5d2e-cf48-4021-8c16-a04ce3ae1228"
+  } ],
+  "rulesSvcs" : [ {
+    "name" : "Warranty",
+    "version" : "1.0",
+    "etag" : "3dba687d-9d77-4d77-b0d1-de4b5b530090"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

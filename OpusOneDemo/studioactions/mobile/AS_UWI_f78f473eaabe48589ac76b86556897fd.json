@@ -1,0 +1,32 @@
+{
+    "AS_UWI_f78f473eaabe48589ac76b86556897fd": {
+        "id": "AS_UWI_f78f473eaabe48589ac76b86556897fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimNew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i485d7da04114659b706a6407a9bed34"
+        },
+        "language": "js",
+        "eventType": "onOption1Click",
+        "actions": [{
+            "id": "MODIFY_VARIABLE_ACTION_eff1bc501ac54e46a0a48cf0fab76b06",
+            "type": "MODIFY_VARIABLE_ACTION",
+            "variable": "gblWarrantyType",
+            "valueType": "set",
+            "isGlobal": true,
+            "dataType": "simple",
+            "modifySet": "\"repair\"",
+            "modifySetType": "string"
+        }, {
+            "id": "ADD_SNIPPET_c0552e1ecb7b43b2a84b40228339c2d0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.topResolution.toggleOption(1);\nthis.view.topResolution.selectedValue = \"Repair\";"
+        }]
+    }
+}

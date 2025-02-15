@@ -1,0 +1,163 @@
+{
+    "classname": "RMACard",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "db5df6bec04e42bd8e9b2dfe55f91ca2",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "itemSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Item Image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgRMA",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "u7e0288cb75a471289f379f4cc9ece76"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i8079bb5790c4820b919de09b81bc483",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "itemName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Item Name",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRMAName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud757040e7de4659856332c6aa45b80f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c59068ce8f6d44acb1c904b45428cfa4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "itemStatus",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Status",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRMAStatus",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "uc8da41748af4e0f8a98dc05dd830802"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ab9ca2e8ee484e8cafc3a7c673e12ed0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "itemWarDate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Warranty Date",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRMAWarDate",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u35474b8deff457894afa7d814784288"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bd2d85173ab444e3baaa11c8ef40b4d3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "itemClaim",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Claim No",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRMAClaimNo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u0f3faf54896491ca0d975ee66b5d39c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fec907e56b1d4fc9b2f20afb14b5feff",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "itemStatusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Status Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRMAStatus",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "uc8da41748af4e0f8a98dc05dd830802"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

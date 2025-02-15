@@ -1,0 +1,30 @@
+{
+    "AS_UWI_g100c676af8a4221b84eed0fbfe4db95": {
+        "id": "AS_UWI_g100c676af8a4221b84eed0fbfe4db95",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUPS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bdb168da519748648a415155fdb8446b"
+        },
+        "language": "js",
+        "eventType": "onClickL",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__aadd91f95b184751966df1d721a0bb24",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmClaimComplete",
+            "formKUID": "ac4987f9283940a18a1d42e8ca71a39a",
+            "projectName": "OpusOneDemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

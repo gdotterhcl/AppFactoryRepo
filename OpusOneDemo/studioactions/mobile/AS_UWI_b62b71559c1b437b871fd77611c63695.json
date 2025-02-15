@@ -1,0 +1,21 @@
+{
+    "AS_UWI_b62b71559c1b437b871fd77611c63695": {
+        "id": "AS_UWI_b62b71559c1b437b871fd77611c63695",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "lat",
+            "datatype": "collection"
+        }, {
+            "name": "lon",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "hf9bfc7a156c43f7911c6831b43e66bd"
+        },
+        "language": "js",
+        "eventType": "onLocationReceived",
+        "actions": []
+    }
+}

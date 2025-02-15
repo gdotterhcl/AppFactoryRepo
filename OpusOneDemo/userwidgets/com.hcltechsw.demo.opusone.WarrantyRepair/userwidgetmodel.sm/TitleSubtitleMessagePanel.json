@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_skin_": "seaaa958612a4f06804908fc6c57f278",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "textMessage": "A repair technician is scheduled to visit you on:<br/>\n<b>April 26th, 2025</b> between <b>8:00am - 12:00pm</b>.",
+        "textSubtitle": "Repair Scheduled",
+        "textTitle": "Warranty Repair Received"
+    },
+    "id": "TitleSubtitleMessagePanel",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dee4939353974257af1a38ff1a52504e",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxTitleSubtitle",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "a170b894d30b41ac8e3bf23b21091b10",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

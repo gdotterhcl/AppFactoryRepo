@@ -1,0 +1,62 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "product",
+      "qualifiedName" : "opusone.product",
+      "metadataformatterobject" : "{\"displayName\":\"product\",\"qualifiedName\":\"opusone.product\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"product\",\"schemaName\":\"opusone\",\"tableName\":\"product\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "product",
+      "qualifiedName" : "opusone.product",
+      "metadataformatterobject" : "{\"displayName\":\"product\",\"qualifiedName\":\"opusone.product\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"product\",\"schemaName\":\"opusone\",\"tableName\":\"product\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "imgUrl",
+    "targetField" : "imgUrl",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "serialNumber",
+    "targetField" : "serialNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "productCode",
+    "targetField" : "productCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "price",
+    "targetField" : "price",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "name",
+    "targetField" : "name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "idProduct",
+    "targetField" : "idProduct",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "description",
+    "targetField" : "description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "modelNumber",
+    "targetField" : "modelNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "manufacturer",
+    "targetField" : "manufacturer",
+    "type" : "request_response"
+  } ]
+}

@@ -1,0 +1,226 @@
+{
+    "classname": "DropdownField",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c69a2320b8b644bc83473bec0b47e6d0",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelection",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSelection",
+                        "srcWidget": "lbDropdown",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "u0b4ebdd791d4e9c846d7a53fa786caa",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b87c5bde37514370ba65d62d1f33aa0e",
+                    "originalPropertyKey": "selection",
+                    "propertyIndex": 3,
+                    "propertyKey": "selection",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selection",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ud21d71511034c24a5fce025b2b7779b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{}",
+                    "group": "General",
+                    "kuid": "b8792e989ee743869b24aa908a1b62f1",
+                    "originalPropertyKey": "masterDataMap",
+                    "propertyIndex": 6,
+                    "propertyKey": "masterDataMap",
+                    "pw": {
+                        "displayName": "Master Data Map",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "jsonEditor-Retriever",
+                                "dataUpdaterId": "jsonEditor-Updater",
+                                "popupId": "jsonEditor-Popup",
+                                "type": "jsonEditor"
+                            }
+                        },
+                        "uiRepresentation": "Label-Button"
+                    },
+                    "srcWgtKUID": "ud21d71511034c24a5fce025b2b7779b",
+                    "type": "json",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c831138e4f0249d590a25b22e55ce951",
+                    "originalPropertyKey": "i18n_text",
+                    "propertyIndex": 1,
+                    "propertyKey": "i18nLabel",
+                    "pw": {
+                        "access": "constructor",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeys": [
+                            "text"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "j4061f4c7632486a9b6d7edfb426aae6"
+                        ],
+                        "displayName": "i18nLabel",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "udecc6fec2834ac48f11a79b1275d857"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gac7bc35525d4c59a23706e24f97af94",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "udecc6fec2834ac48f11a79b1275d857"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf7c21aa00b84b228ac236357a5472af",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "udecc6fec2834ac48f11a79b1275d857"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a8636bf676214658ad0820808dac8060",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 5,
+                    "propertyKey": "masterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            },
+                            {
+                                "isVisible": false,
+                                "key": "selectedKeys",
+                                "originalKey": "selectedKeys"
+                            }
+                        ],
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Master Data",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lbDropdown",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "u0b4ebdd791d4e9c846d7a53fa786caa"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dfba1e39bc8c412895783b343012aed5",
+                    "originalPropertyKey": "selectedKey",
+                    "propertyKey": "selectedKey",
+                    "pw": {
+                        "access": "readwrite",
+                        "isHiddenInTool": true,
+                        "srcWidget": "lbDropdown"
+                    },
+                    "srcWgtKUID": "u0b4ebdd791d4e9c846d7a53fa786caa"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i0d132c231c042afadf5d99f853270d9",
+                    "originalPropertyKey": "selectedKeys",
+                    "propertyKey": "selectedKeys",
+                    "pw": {
+                        "access": "readwrite",
+                        "isHiddenInTool": true,
+                        "srcWidget": "lbDropdown"
+                    },
+                    "srcWgtKUID": "u0b4ebdd791d4e9c846d7a53fa786caa"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

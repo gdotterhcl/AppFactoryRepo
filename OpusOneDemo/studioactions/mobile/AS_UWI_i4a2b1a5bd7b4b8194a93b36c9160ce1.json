@@ -1,0 +1,30 @@
+{
+    "AS_UWI_i4a2b1a5bd7b4b8194a93b36c9160ce1": {
+        "id": "AS_UWI_i4a2b1a5bd7b4b8194a93b36c9160ce1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimNew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i485d7da04114659b706a6407a9bed34"
+        },
+        "language": "js",
+        "eventType": "onScanClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__gf8bc8bc288144fb8c84a2b9e2e4e18e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmScan",
+            "formKUID": "abadb4da0b194f7498bc1faa37e73172",
+            "projectName": "OpusOneDemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

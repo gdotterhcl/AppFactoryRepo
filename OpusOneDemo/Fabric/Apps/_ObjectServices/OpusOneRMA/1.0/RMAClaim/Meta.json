@@ -1,0 +1,21 @@
+{
+  "type" : "SAAS",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "UniquePrefixId" : "a8ecce44-e479-44a4-897e-0d8f84d77e4b",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { },
+    "workflowsvcs" : {
+      "name" : "WarrantyProcessing",
+      "version" : "1.0"
+    }
+  }
+}

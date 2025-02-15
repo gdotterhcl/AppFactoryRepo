@@ -1,0 +1,71 @@
+{
+    "classname": "OpusOneWebHeader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cfe400ae56c649269b472f4f3754f3f2",
+                    "originalPropertyKey": "onTabChange",
+                    "paramList": [
+                        {
+                            "name": "eventObject"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onTabChange",
+                    "pw": {
+                        "access": "readwrite",
+                        "displayName": "onTabChange",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u227b27653c04d938b454bcf79fd273f",
+                    "type": "event"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "c0dcca8ce2ea4c1a8a3f9effebfd9c14",
+                    "originalPropertyKey": "selectedTab",
+                    "propertyIndex": 1,
+                    "propertyKey": "selectedTab",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Default Tab",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u1011476c4374459b83d25624d3df650",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

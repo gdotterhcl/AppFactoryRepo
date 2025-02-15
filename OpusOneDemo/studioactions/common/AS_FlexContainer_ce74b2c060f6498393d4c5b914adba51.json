@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_ce74b2c060f6498393d4c5b914adba51": {
+        "id": "AS_FlexContainer_ce74b2c060f6498393d4c5b914adba51",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u8ea311de29f4e4dab9786c57287061a"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i84945c6e78b4d5fa9aa4cbbcbf37ad3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getLatLongFromCurrLoc",
+            "display": "getLatLongFromCurrLoc",
+            "inputparams": [{
+                "name": "isRefresh",
+                "value": "false"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

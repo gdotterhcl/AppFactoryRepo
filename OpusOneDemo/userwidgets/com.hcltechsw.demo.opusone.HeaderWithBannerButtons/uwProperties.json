@@ -1,0 +1,275 @@
+{
+    "classname": "HeaderWithBannerButtons",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "afa3dab22a124d8da172e8564cecfcf0",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickL",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickL",
+                        "srcWidget": "flxButtonL",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b9d7d3a96f58478897e033e3cfc7cedd",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed5aa980717542a0957dab4a7e5f2d20",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickR",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickR",
+                        "srcWidget": "flxButtonR",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a92e4ff4e8f24ca48d39caa61d8d014b",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i97cae0412904667aa081e4a7c117930",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleL",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {
+                            "conditions": [
+                                {
+                                    "hideProps": [
+                                        "f4ade3f1eb8f407985f2e56c44125f61"
+                                    ],
+                                    "value": false
+                                }
+                            ],
+                            "properties": [
+                                "f4ade3f1eb8f407985f2e56c44125f61"
+                            ]
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Left Button Visible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxButtonL",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b9d7d3a96f58478897e033e3cfc7cedd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f4ade3f1eb8f407985f2e56c44125f61",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "srcL",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Left Button Image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgButtonL",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "h2dbee43f86c4ad289d53f3cde52b90c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "deb1a00c1bf043708a395f88047e9486",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "isVisibleR",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {
+                            "conditions": [
+                                {
+                                    "hideProps": [
+                                        "g29308ba3b414f739ac4cddee45880a7"
+                                    ],
+                                    "value": false
+                                }
+                            ],
+                            "properties": [
+                                "g29308ba3b414f739ac4cddee45880a7"
+                            ]
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Right Button Visible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxButtonR",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a92e4ff4e8f24ca48d39caa61d8d014b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g29308ba3b414f739ac4cddee45880a7",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "srcR",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Right Button Image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgButtonR",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "bd7b2f6b4b8448d2ae33141574f8e287"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ha3a98fb8c57475eb5a4be159e9b43b6",
+                    "originalPropertyKey": "isVisibleText",
+                    "propertyIndex": 5,
+                    "propertyKey": "isVisibleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "MessageBanner",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "d3ccfbf1c34d43868f0de36eca715f96"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b4b933710d3d4681974a87e2be3c9c4d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "MessageBanner",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "d3ccfbf1c34d43868f0de36eca715f96"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e48f0e1f39374a6d91645b65d4904f23",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "skinBanner",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Banner Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxHeaderWithBannerButtons",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c38344201a294163b30d29e189b6779f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fe14654f61fb466da3ad65ab98905fbb",
+                    "originalPropertyKey": "skinText",
+                    "propertyIndex": 8,
+                    "propertyKey": "skinText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "MessageBanner",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "d3ccfbf1c34d43868f0de36eca715f96"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

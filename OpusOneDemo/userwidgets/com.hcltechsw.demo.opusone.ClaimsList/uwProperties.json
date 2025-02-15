@@ -1,0 +1,153 @@
+{
+    "classname": "ClaimsList",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "da051ea77289437aa3b326b3d61e7d42",
+                    "originalPropertyKey": "onRowClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onRowClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRowClick",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "a5cf30044b88458faf9245c67224221f"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc4c42562ff04ba9b0ced12ec014e2c6",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 1,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Master Data",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "a5cf30044b88458faf9245c67224221f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b0cbe093ef804b05ba3267097adb808b",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 2,
+                    "propertyKey": "rowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "fc4c42562ff04ba9b0ced12ec014e2c6",
+                            "i3d78399cda04acfb1cbd5d63e0eebb7"
+                        ],
+                        "dependentProps": [
+                            "snapGridSize",
+                            "snapToGrid",
+                            "defaultUnit",
+                            "layoutType",
+                            "clipBounds"
+                        ],
+                        "displayName": "Row Template",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "a5cf30044b88458faf9245c67224221f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i3d78399cda04acfb1cbd5d63e0eebb7",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "isHiddenInTool": true,
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "a5cf30044b88458faf9245c67224221f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "eed3df0dfbbd42608cfa89f1e3b169dd",
+                    "originalPropertyKey": "sectionHeaderTemplate",
+                    "propertyIndex": 3,
+                    "propertyKey": "sectionHeaderTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "fc4c42562ff04ba9b0ced12ec014e2c6",
+                            "i3d78399cda04acfb1cbd5d63e0eebb7"
+                        ],
+                        "displayName": "Section Header Template'",
+                        "isDependentProp": true,
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "a5cf30044b88458faf9245c67224221f"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "d705ab08b4ea4984a5e875340d91ca7d",
+                    "propertyKey": "segClaimList",
+                    "srcWgtKUID": "a5cf30044b88458faf9245c67224221f"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

@@ -1,0 +1,203 @@
+{
+    "AS_UWI_e0117c7144594c70985b9677736dfa8d": {
+        "id": "AS_UWI_e0117c7144594c70985b9677736dfa8d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAI",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i5dbfe7b13c2491cb61f2993a3833e83"
+        },
+        "language": "js",
+        "eventType": "onSendMessage",
+        "actions": [{
+            "id": "ADD_LOCAL_VARIABLE_bee012023fda48e39e3b1b8c24f24b31",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "textToSend",
+            "isGlobal": false,
+            "valuetype": "expression",
+            "datatype": "string",
+            "value": "this.view.MessagePanelWithEntry.text"
+        }, {
+            "id": "ADD_SNIPPET_aceb8ed1e4474e2ab1341b589a40db22",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.MessagePanelWithEntry.toggleTypingPanel(true, MSGTYPE.AGENT);\n\nlet chatResponse = chatNow.response[0].text.trim();\n\nvoltmx.print(\"##### frmAI.onSendMessage callback received response from ChatGPT: \" + chatResponse);\n\nself.view.MessagePanelWithEntry.addMessage(chatResponse, \"12:08 PM\", MSGTYPE.AGENT);\nself.view.MessagePanelWithEntry.MessageList.scrollToEnd();\nself.view.MessagePanelWithEntry.toggleTypingPanel(false);",
+            "parentId": "INVOKE_SERVICE_e948f750929544f2ab57a781cfc67c76",
+            "callbackType": "Callback"
+        }, {
+            "id": "ADD_SNIPPET_dc34b8e323e74683958dacb090237a2d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print(\"##### frmAI.MessagePanelWithEntry.onSendMessage sending to service:\\n\" + this.view.MessagePanelWithEntry.text);\n\nthis.view.MessagePanelWithEntry.toggleTypingPanel(false);\nthis.view.MessagePanelWithEntry.addMessage(textToSend, \"11:49 PM\", MSGTYPE.USER);\nthis.view.MessagePanelWithEntry.MessageList.scrollToEnd();\nthis.view.MessagePanelWithEntry.toggleTypingPanel(true, MSGTYPE.AGENT);",
+            "parentId": null
+        }, {
+            "id": "INVOKE_SERVICE_e948f750929544f2ab57a781cfc67c76",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_hea8ca7e59ea413e9909bd780e052bff": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_hea8ca7e59ea413e9909bd780e052bff",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "model",
+                        "dataType": "string",
+                        "expression": "\"gpt-3.5-turbo-instruct\"",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpenAIChatGPTGD",
+                            "serviceid": "57cea73e-c1ba-4b2a-9453-aff84acef29e",
+                            "type": "integration",
+                            "operationname": "chatNow",
+                            "operationid": "287003"
+                        }
+                    }
+                },
+                "ME_Mapping_d515938092ff4ce7bdd6e4c281968a77": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d515938092ff4ce7bdd6e4c281968a77",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "max_tokens",
+                        "dataType": "number",
+                        "expression": "\"4000\"",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpenAIChatGPTGD",
+                            "serviceid": "57cea73e-c1ba-4b2a-9453-aff84acef29e",
+                            "type": "integration",
+                            "operationname": "chatNow",
+                            "operationid": "287003"
+                        }
+                    }
+                },
+                "ME_Mapping_i76621b0bb404c9b9fec7cf2bdaace11": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_i76621b0bb404c9b9fec7cf2bdaace11",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "temperature",
+                        "dataType": "number",
+                        "expression": "\"0.9\"",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpenAIChatGPTGD",
+                            "serviceid": "57cea73e-c1ba-4b2a-9453-aff84acef29e",
+                            "type": "integration",
+                            "operationname": "chatNow",
+                            "operationid": "287003"
+                        }
+                    }
+                },
+                "ME_Mapping_bf35f9eb5683430597946d911bee1307": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_bf35f9eb5683430597946d911bee1307",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "echo",
+                        "dataType": "boolean",
+                        "expression": "false",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpenAIChatGPTGD",
+                            "serviceid": "57cea73e-c1ba-4b2a-9453-aff84acef29e",
+                            "type": "integration",
+                            "operationname": "chatNow",
+                            "operationid": "287003"
+                        }
+                    }
+                },
+                "ME_Mapping_d55672130eb048afb546db5ff48b82a8": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d55672130eb048afb546db5ff48b82a8",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "stop",
+                        "dataType": "string",
+                        "expression": "\"[' User:', ' AI:']\"",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpenAIChatGPTGD",
+                            "serviceid": "57cea73e-c1ba-4b2a-9453-aff84acef29e",
+                            "type": "integration",
+                            "operationname": "chatNow",
+                            "operationid": "287003"
+                        }
+                    }
+                },
+                "ME_Mapping_bc0d7b38666541c0862cc1252e3e9e92": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_bc0d7b38666541c0862cc1252e3e9e92",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "textToSend",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "prompt",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "OpenAIChatGPTGD",
+                            "serviceid": "57cea73e-c1ba-4b2a-9453-aff84acef29e",
+                            "type": "integration",
+                            "operationname": "chatNow",
+                            "operationid": "287003"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_hea8ca7e59ea413e9909bd780e052bff", "ME_Mapping_d515938092ff4ce7bdd6e4c281968a77", "ME_Mapping_i76621b0bb404c9b9fec7cf2bdaace11", "ME_Mapping_bf35f9eb5683430597946d911bee1307", "ME_Mapping_d55672130eb048afb546db5ff48b82a8", "ME_Mapping_bc0d7b38666541c0862cc1252e3e9e92"],
+            "serviceconfig": {
+                "servicename": "OpenAIChatGPTGD",
+                "serviceid": "57cea73e-c1ba-4b2a-9453-aff84acef29e",
+                "type": "integration",
+                "operationname": "chatNow",
+                "operationid": "287003"
+            },
+            "parentId": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

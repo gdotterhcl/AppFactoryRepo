@@ -1,0 +1,118 @@
+{
+    "classname": "MapSearchUsingLocation",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "defaultValue": "AIzaSyDzCgdgKf--HQny_IlBXuQb4YDlILfWKPU",
+                    "group": "General",
+                    "kuid": "g342a485ae544aff8a3af3562df3a6a9",
+                    "originalPropertyKey": "mapAPIKey",
+                    "propertyIndex": 3,
+                    "propertyKey": "mapAPIKey",
+                    "pw": {
+                        "access": "readwrite",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Google Maps API Key",
+                        "isHiddenInTool": false,
+                        "srcWidget": "SearchUsingLocation",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cf4113e8807b4349bf149199d486fb58",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Enable",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "j360de5f975f4fe2bc4c980f353684f9",
+                    "originalPropertyKey": "latitude",
+                    "propertyIndex": 4,
+                    "propertyKey": "latitude",
+                    "pw": {
+                        "access": "readwrite",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Current Latitude",
+                        "isHiddenInTool": false,
+                        "srcWidget": "SearchUsingLocation",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cf4113e8807b4349bf149199d486fb58",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Enable",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "g653c9ae2ee04474a4f08666543cacea",
+                    "originalPropertyKey": "longitude",
+                    "propertyIndex": 5,
+                    "propertyKey": "longitude",
+                    "pw": {
+                        "access": "readwrite",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Current Longitude",
+                        "isHiddenInTool": false,
+                        "srcWidget": "SearchUsingLocation",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cf4113e8807b4349bf149199d486fb58",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Enable",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d2e3fabade1c4565ae886fa6f97142e5",
+                    "originalPropertyKey": "cityState",
+                    "propertyIndex": 6,
+                    "propertyKey": "cityState",
+                    "pw": {
+                        "access": "readwrite",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "City / State",
+                        "isHiddenInTool": false,
+                        "srcWidget": "SearchUsingLocation",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cf4113e8807b4349bf149199d486fb58",
+                    "type": "string",
+                    "value": ""
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Form_c18be5a4faf64be695f58b48e461849e": {
+        "id": "AS_Form_c18be5a4faf64be695f58b48e461849e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i912301d6dc24b48bddcd8afcb6b986a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_postShow_daae4332b51947f69a3a62fa50e8b16b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "animateLogin",
+            "display": "animateLogin",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

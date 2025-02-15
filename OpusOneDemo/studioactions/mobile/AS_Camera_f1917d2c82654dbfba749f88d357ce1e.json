@@ -1,0 +1,29 @@
+{
+    "AS_Camera_f1917d2c82654dbfba749f88d357ce1e": {
+        "id": "AS_Camera_f1917d2c82654dbfba749f88d357ce1e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "eb77cbe33ec84f218219f0f48b8e9b92"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onCapture_fde3379596be4a4b8d456d05d0df1b83",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "camOutage_onCapture",
+            "display": "camOutage_onCapture",
+            "inputparams": [{
+                "name": "cameraObj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

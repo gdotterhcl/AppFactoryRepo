@@ -1,0 +1,59 @@
+{
+    "AS_UWI_da00152c6d5d43c5bd36d64f57755aac": {
+        "id": "AS_UWI_da00152c6d5d43c5bd36d64f57755aac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAI",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i5dbfe7b13c2491cb61f2993a3833e83"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ee7588711874486683fd1ef935d8fa95",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "aaa712a138cf47c484ae90e45700e812",
+            "projectName": "OpusOneDemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "MOVE_ACTION_cd389113c24945a59db8a8d7a0be10ec",
+            "callbackType": "Callback",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "MOVE_ACTION_cd389113c24945a59db8a8d7a0be10ec",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmAI",
+            "widgetId": "LeftMenu",
+            "itemKUID": "i5dbfe7b13c2491cb61f2993a3833e83",
+            "widgetKUID": "bf390c6fce24402d97d0c016446c2111",
+            "wType": "UserWidgetInstance",
+            "animationObject": {
+                "left": "-100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION_cd389113c24945a59db8a8d7a0be10ec",
+            "displayAnimationId": "MOVE_ACTION_cd389113c24945a59db8a8d7a0be10ec",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.LeftMenu"
+        }]
+    }
+}

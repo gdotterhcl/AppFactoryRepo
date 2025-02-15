@@ -1,0 +1,28 @@
+{
+    "AS_FlexScrollContainer_bd1e04624c484da8a13de9771232ce3c": {
+        "id": "AS_FlexScrollContainer_bd1e04624c484da8a13de9771232ce3c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u564b33345184c7796c6e549636b4c17"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c0865fab39ee4ae9b95f4d8d0b5f4bfe",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onPreShow",
+            "display": "onPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

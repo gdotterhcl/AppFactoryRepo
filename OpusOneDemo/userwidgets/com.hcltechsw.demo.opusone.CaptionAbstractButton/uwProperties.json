@@ -1,0 +1,192 @@
+{
+    "classname": "CaptionAbstractButton",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d55f4f12ebd947cf8900b52aae2f8a97",
+                    "originalPropertyKey": "textCaption",
+                    "propertyIndex": 1,
+                    "propertyKey": "textCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c71b5491fe8f47eabc79ceabfb1bcc24"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e13e6a50a06e4fefaf3361af289ef46c",
+                    "originalPropertyKey": "isAbstractVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isAbstractVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Abstract",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c71b5491fe8f47eabc79ceabfb1bcc24"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f0593e1e94ba466f874f8d8b2992c276",
+                    "originalPropertyKey": "textAbstract",
+                    "propertyIndex": 3,
+                    "propertyKey": "textAbstract",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Abstract Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c71b5491fe8f47eabc79ceabfb1bcc24"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h49173ead57040cbaf5d526fdac20bf2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "SimpleButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j848b8b7ae6d44c888acba7507d75fe6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba90f5817c9e4f77a82b8909bda55ef5",
+                    "originalPropertyKey": "skinCaption",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c71b5491fe8f47eabc79ceabfb1bcc24"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f5710e9b9f3941a782797f2ad4c74fe6",
+                    "originalPropertyKey": "skinAbstract",
+                    "propertyIndex": 6,
+                    "propertyKey": "skinAbstract",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Abstract Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c71b5491fe8f47eabc79ceabfb1bcc24"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c392a75f581a4d1d8dc8d196ca170a9d",
+                    "originalPropertyKey": "skinButton",
+                    "propertyIndex": 7,
+                    "propertyKey": "skinButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "SimpleButton",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j848b8b7ae6d44c888acba7507d75fe6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a55435e6868b449582dadca6f47fb2ae",
+                    "originalPropertyKey": "skinText",
+                    "propertyIndex": 8,
+                    "propertyKey": "skinButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "SimpleButton",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j848b8b7ae6d44c888acba7507d75fe6"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

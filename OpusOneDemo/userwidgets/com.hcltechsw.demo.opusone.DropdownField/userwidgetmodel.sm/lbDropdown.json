@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        2,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s3751d721aad4c2ca7f37cdd407c99bf",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "viewType": 0
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s9ae3120225249ecb4beccdb423e5f8c"
+        }
+    },
+    "dropdownimage": "arrowdown.png",
+    "focusskin": "sfeb88619b9042449b3a36d2a8d6a3e2",
+    "groupcells": false,
+    "id": "lbDropdown",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u0b4ebdd791d4e9c846d7a53fa786caa",
+    "masterdata": [
+        [
+            "en",
+            "English"
+        ],
+        [
+            "fr",
+            "French"
+        ],
+        [
+            "it",
+            "Italian"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxDropdownField",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "en",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "en",
+        "English"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

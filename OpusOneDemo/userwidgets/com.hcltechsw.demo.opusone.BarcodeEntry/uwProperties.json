@@ -1,0 +1,115 @@
+{
+    "classname": "BarcodeEntry",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a257f3e1a906401b8246175ac36855fe",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onScanClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onScanClick",
+                        "srcWidget": "flxScan",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c6390c1da3504afa91e6bf1f8966b858",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b6aea7e54bd345bfb70dc3dffca8ddfd",
+                    "originalPropertyKey": "lblFieldText",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblFieldText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Label Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "TextEntry",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "d0ea3a7911d0422c93dd381cbf751b18"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c7449be009134cb7817eff5ca51d6a8e",
+                    "originalPropertyKey": "fieldValue",
+                    "propertyIndex": 2,
+                    "propertyKey": "fieldValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "TextEntry",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "d0ea3a7911d0422c93dd381cbf751b18"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa617fbe08fd40aa89ec752929258561",
+                    "originalPropertyKey": "isRequired",
+                    "propertyIndex": 3,
+                    "propertyKey": "isRequired",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Required Flag",
+                        "isHiddenInTool": false,
+                        "srcWidget": "TextEntry",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "d0ea3a7911d0422c93dd381cbf751b18"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

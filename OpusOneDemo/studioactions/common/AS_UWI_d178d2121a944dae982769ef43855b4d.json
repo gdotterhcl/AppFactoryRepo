@@ -1,0 +1,36 @@
+{
+    "AS_UWI_d178d2121a944dae982769ef43855b4d": {
+        "id": "AS_UWI_d178d2121a944dae982769ef43855b4d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onSearchClick",
+        "actions": [{
+            "id": "LOADING_INDICATOR_ide_onSearchClick_d0b9c97683194c42b9f76295ef7d269e",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onSearchClick_e8d47fa5e27847d79356c32418efa7b8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createDemoData",
+            "display": "createDemoData",
+            "inputparams": [{
+                "name": "latVal",
+                "value": "self.view.SearchUsingLocation.latitude"
+            }, {
+                "name": "lonVal",
+                "value": "self.view.SearchUsingLocation.longitude"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "AS_UWI_jc07c7f79fdc447cb52963e058d79f39": {
+        "id": "AS_UWI_jc07c7f79fdc447cb52963e058d79f39",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ba850a2fb9534149873fbb6f82119a8d"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__id63f646f70c41b1a8d1b8c4120806d6",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "aaa712a138cf47c484ae90e45700e812",
+            "projectName": "OpusOneDemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "MOVE_ACTION_da4df82ebda24feea5a31a04c4f21a9a",
+            "callbackType": "Callback",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "MOVE_ACTION_da4df82ebda24feea5a31a04c4f21a9a",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmClaimList",
+            "widgetId": "LeftMenu",
+            "itemKUID": "ba850a2fb9534149873fbb6f82119a8d",
+            "widgetKUID": "b16e9c9f8d81487d9dce0dc9ad6e7699",
+            "wType": "UserWidgetInstance",
+            "animationObject": {
+                "left": "-100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION_da4df82ebda24feea5a31a04c4f21a9a",
+            "displayAnimationId": "MOVE_ACTION_da4df82ebda24feea5a31a04c4f21a9a",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.LeftMenu"
+        }]
+    }
+}

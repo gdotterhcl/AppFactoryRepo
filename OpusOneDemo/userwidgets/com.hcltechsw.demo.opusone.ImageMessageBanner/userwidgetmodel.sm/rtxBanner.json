@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_skin_": "s281b20565054fd0871618c0934a89ea",
+    "_text_": "<i>Opus One offers a <b>satisfaction guarantee</b> that goes further, promising customer happiness, often with a money-back option even if the product isn't technically faulty. Our warranty covers product defects and usually includes repair, replacement, or refund.</i>",
+    "_top_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "rtxBanner",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f5c9c32bc38344c59bf3a048535f803c",
+    "linkskin": "sb44288a4e34403fbec62c6b41040ae3",
+    "name": "kony.ui.RichText",
+    "parent": "flxMessageBanner",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 3
+}

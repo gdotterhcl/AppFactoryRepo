@@ -1,0 +1,34 @@
+{
+    "AS_Form_ib4ff4c4aafe43ab811d549b8d8a5d6d": {
+        "id": "AS_Form_ib4ff4c4aafe43ab811d549b8d8a5d6d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRMA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d8a603a752b94f798ec1692f1a28e3d0"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "ADD_SNIPPET_h421fd30145e4aac8914ce2d9538ea56",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.flxRMAList.removeAll();\nfor(cnt=0; cnt<DEMOCLAIMDATA.length; cnt++) {\n  var RMAEntry = DEMOCLAIMDATA[cnt];\n  var RMACard = new com.hcltechsw.demo.opusone.RMACard( {\n        \"clipBounds\":true,\n        \"id\": \"RMACard\"+cnt,\n        \"isVisible\": true,\n        \"left\": cnt%2===1?\"52%\":\"0%\",\n    \t\"height\":\"128px\",\n        \"width\": \"48%\",\n        \"top\": (Math.floor(cnt/2)*128) + (Math.floor(cnt/2) === 0 ?0:20) +\"px\",\n        \"zIndex\": 1\n      }, {}, {});\n\n  RMACard.itemSrc = RMAEntry.imgItem;\n  RMACard.itemName = RMAEntry.lblProductName;\n  RMACard.itemStatus = RMAEntry.lblStatus.text;\n  RMACard.itemWarDate = RMAEntry.lblWarrantyDateVal;\n  RMACard.itemClaim = RMAEntry.lblClaimNumberVal;\n  RMACard.itemStatusSkin = RMAEntry.lblStatus.skin;\n  self.view.flxRMAList.add(RMACard);\n}",
+            "parentId": null,
+            "disabled": true
+        }, {
+            "id": "INVOKE_FUNCTION__c812f78247b343f39b77630629199446",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getClaims",
+            "display": "getClaims",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_i606816720c947138b59f82262d0979b": {
+        "id": "AS_FlexContainer_i606816720c947138b59f82262d0979b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "hf9bfc7a156c43f7911c6831b43e66bd"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_cae53fafd70140619a6b324618f30651",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getLatLongFromCurrLoc",
+            "display": "getLatLongFromCurrLoc",
+            "inputparams": [{
+                "name": "isRefresh",
+                "value": "false"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

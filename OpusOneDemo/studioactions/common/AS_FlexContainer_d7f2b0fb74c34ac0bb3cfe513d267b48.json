@@ -1,0 +1,56 @@
+{
+    "AS_FlexContainer_d7f2b0fb74c34ac0bb3cfe513d267b48": {
+        "id": "AS_FlexContainer_d7f2b0fb74c34ac0bb3cfe513d267b48",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u9d8a1cd1b034983b3880263814db649"
+        },
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY___gfac43680e82473aa4651be081b93053",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "COMPONENT",
+            "itemId": "userwidgetmodel",
+            "widgetId": "flxButton",
+            "propertyName": "skin",
+            "propertyValue": "flxbutton",
+            "itemKUID": "u9d8a1cd1b034983b3880263814db649",
+            "widgetKUID": "u83da44199ae44cda2d5ca6830b5ced8",
+            "skinKUID": "s38577e9f8644d6b84bbd93bebce00a0",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.flxButton"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___fa96bdc5e4f445c1b4f584dfc9b8c754",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "COMPONENT",
+            "itemId": "userwidgetmodel",
+            "widgetId": "lblItem",
+            "propertyName": "skin",
+            "propertyValue": "lblbutton",
+            "itemKUID": "u9d8a1cd1b034983b3880263814db649",
+            "widgetKUID": "ueccdd48cfde48c9b7fe998bab59540c",
+            "skinKUID": "s14a571ecc4c47ffa21c399ca1756c60",
+            "isSkinProperty": true,
+            "wType": "Label",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.lblItem"
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Form_c8260d72745a49c3a4e15e9adad29a43": {
+        "id": "AS_Form_c8260d72745a49c3a4e15e9adad29a43",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ba850a2fb9534149873fbb6f82119a8d"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__bb11a49725094f2aa2f71a3ba62c0b25",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onPreShow",
+            "display": "onPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

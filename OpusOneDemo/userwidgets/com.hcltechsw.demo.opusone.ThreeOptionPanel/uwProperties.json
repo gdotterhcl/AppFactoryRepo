@@ -1,0 +1,323 @@
+{
+    "classname": "ThreeOptionPanel",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g79d01bbbe3b40ec98fe94b7ff114471",
+                    "paramList": [
+                        {
+                            "name": "newOption"
+                        }
+                    ],
+                    "propertyKey": "toggleOption",
+                    "pw": {
+                        "displayName": "toggleOption",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b7c922e4d776407f89ca64b85bd104be",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "da77a876cedb442d96a5783304a6d1d0",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onOption1Click",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onOption1Click",
+                        "srcWidget": "OptionButton1",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "i91e5780fa474a1f8d626ad88acbb313",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "afa30e1df8b94d2c8393961b95d3d601",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onOption2Click",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onOption2Click",
+                        "srcWidget": "OptionButton2",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j5e10b485c20491b851b4806623962ab",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bdbbbb839eaa43188acc7112d63de9c6",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onOption3Click",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onOption3Click",
+                        "srcWidget": "OptionButton3",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b75fae251f7b4f63ad671ee6d8750d91",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "e960c327733f4d30a4ddb17ff76f09c8",
+                    "originalPropertyKey": "selectedValue",
+                    "propertyIndex": 11,
+                    "propertyKey": "selectedValue",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Selected Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b7c922e4d776407f89ca64b85bd104be",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e0dc33ef3edb43ca9fa0b59e6b07162f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f4cb16262a5c45af9ac2ea98a8a47354"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a08490a1ca7b4a889251834907083e96",
+                    "originalPropertyKey": "textButton",
+                    "propertyIndex": 2,
+                    "propertyKey": "textButton1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 1 Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "i91e5780fa474a1f8d626ad88acbb313"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jc51e6ddbbea4120a12a78846352af08",
+                    "originalPropertyKey": "textButton",
+                    "propertyIndex": 3,
+                    "propertyKey": "textButton2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 2 Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j5e10b485c20491b851b4806623962ab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "eb39d6f59f54479786d3ee1717463a3b",
+                    "originalPropertyKey": "textButton",
+                    "propertyIndex": 4,
+                    "propertyKey": "textButton3",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 3 Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton3",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b75fae251f7b4f63ad671ee6d8750d91"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a74c39bae6ad4f81b453edc7c26118b3",
+                    "originalPropertyKey": "skinButton",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinButton1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 1 Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton1",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "i91e5780fa474a1f8d626ad88acbb313"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a8436bc6551c43c4a5cd69ceabb6dabf",
+                    "originalPropertyKey": "skinText",
+                    "propertyIndex": 6,
+                    "propertyKey": "skinButton1Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 1 Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton1",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "i91e5780fa474a1f8d626ad88acbb313"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g1d9100ef09c4292b0531b6411fbc545",
+                    "originalPropertyKey": "skinButton",
+                    "propertyIndex": 7,
+                    "propertyKey": "skinButton2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 2 Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton2",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j5e10b485c20491b851b4806623962ab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e485a63a62334f78b64f0369bc470349",
+                    "originalPropertyKey": "skinText",
+                    "propertyIndex": 8,
+                    "propertyKey": "skinButton2Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 2 Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton2",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j5e10b485c20491b851b4806623962ab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j9ae7920dba54fc9aad4221bc6f7ffc1",
+                    "originalPropertyKey": "skinButton",
+                    "propertyIndex": 9,
+                    "propertyKey": "skinButton3",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 3 Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton3",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b75fae251f7b4f63ad671ee6d8750d91"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f0b1f7ffa5e14a659b0088f7820dee30",
+                    "originalPropertyKey": "skinText",
+                    "propertyIndex": 10,
+                    "propertyKey": "skinButton3Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button 3 Text Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "OptionButton3",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b75fae251f7b4f63ad671ee6d8750d91"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

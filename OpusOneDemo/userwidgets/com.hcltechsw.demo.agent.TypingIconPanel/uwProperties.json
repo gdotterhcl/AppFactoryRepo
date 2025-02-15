@@ -1,0 +1,150 @@
+{
+    "classname": "TypingIconPanel",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "df42f22c06d04b5593c0ad42dd9e4c90",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isAgentVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Agent Icon Visible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxAgent",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b8590192555b4357867872f1a0ff18a3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i5247eeb87bf43b1a09c02327ace2ed6",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isUserVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Icon Visible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxUser",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f7e809f006ab4e8aacbe4d3a6cfa46ef"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa8bfeb70d37499e87d043a22bd6073d",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinLeftTip",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Left Tip Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxLeftFiller",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ab38b8ed336a4d38b06352994c13cbb3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ea8821d7afb64e698483bb2889ec6136",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skinAgentMsg",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Agent Message Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxAgentTyping",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b30b83270b1d4769b8381516e4286a10"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "db815c513c574a508a893361a9ef7aa0",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "skinRightTip",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Right Tip Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxRightFiller",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a20f55d58205466eb85dfe4065245a32"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h0071b3eab0a43fe8822f3d342083f81",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "skinUserMsg",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Message Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxUserTyping",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ebe2096e9a744d61aa003f7b6cd2ad45"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcltechsw.demo.agent",
+    "version": "1.0.0"
+}

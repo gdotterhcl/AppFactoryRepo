@@ -1,0 +1,62 @@
+{
+    "classname": "LeftMenu",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i19f862411fb4c7fb0156e59148db668",
+                    "originalPropertyKey": "onCloseClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onCloseClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onCloseClick",
+                        "srcWidget": "flxCloseButton",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c4b7896a72064872939953ecedd8daf9",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "f68480990b064a4abfe11221bf5e6d7f",
+                    "propertyKey": "MenuItems",
+                    "srcWgtKUID": "f9f9cd5c36c6416ba5cdbd7d16dae10b"
+                }
+            ],
+            "passthrough": [
+                {
+                    "kuid": "efaa5a7d23ba487d872503c82817a6e6",
+                    "placeholder": "Drop Menu Item Here",
+                    "propertyKey": "MenuItems",
+                    "srcWgtKUID": "f9f9cd5c36c6416ba5cdbd7d16dae10b"
+                }
+            ]
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

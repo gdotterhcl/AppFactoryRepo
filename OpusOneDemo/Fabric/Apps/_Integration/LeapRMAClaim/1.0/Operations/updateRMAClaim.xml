@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="updateRMAClaim" passwordencrypted="false" security="authorized_app" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://apps.hcl-showcase.com/volt-apps/anon/org/data/3d2f1585-698e-440f-89d4-4a3af6b185ad/F_Sheet11/$uid?freedomIdentifyKey=86753099"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="PUT"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Accept" order="" paramOrder="0" parentOrder="0" sms-name="" src="constant" sourcevalue="application/json" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Content-Type" order="" paramOrder="0" parentOrder="0" sms-name="" src="constant" sourcevalue="application/json" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Cookie" order="" paramOrder="0" parentOrder="0" sms-name="" src="constant" sourcevalue="freedomIdentifyKey=86753099" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="uid" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="e49ac035-0b8d-4714-8209-a0639e55213b" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="LeapFlowState" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="ST_Submitted" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CustomerName" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Manufacturing Music" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="PhoneNumber" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="714-555-1414" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Email" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="steve@fakemusic.com" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="OrderNumber" order="" paramOrder="6" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="SE234232" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Status" order="" paramOrder="7" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Awaiting Return" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="Repair, Refund, Replace" encode="true" format="None" formatvalue="" name="StatusVal" order="" paramOrder="8" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Repair" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Description" order="" paramOrder="9" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="I've been experiencing some static in the input since Thursday." value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="WarrantyStartDate" order="" paramOrder="10" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="2027-03-01" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="WarrantyEndDate" order="" paramOrder="11" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="2027-03-01" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Price" order="" paramOrder="12" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="3695" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="RMAID" order="" paramOrder="13" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="VMX99004" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ProductID" order="" paramOrder="14" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="17" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ProductName" order="" paramOrder="15" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Neumann U87" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="SerialNumber" order="" paramOrder="16" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="NMUGHK2345" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ProdImgURL" order="" paramOrder="17" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="https://media.sweetwater.com/m/products/image/50493379f0fHYD0Xd0OmRJ5h4ykSUchvoPjplpYd.jpg" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="    {&#10;      &quot;uid&quot;:&quot;$uid&quot;,&#10;      &quot;flowState&quot;:&quot;$LeapFlowState&quot;,       &#10;      &quot;pressedButton&quot;:&quot;S_Update&quot;,&#10;      #if ($CustomerName != '')&#10;      &quot;F_CustomerName1&quot;: &quot;$CustomerName&quot;,&#10;      #end&#10;      #if ($PhoneNumber != '')&#10;      &quot;F_PhoneNumber1&quot;: &quot;$PhoneNumber&quot;,&#10;      #end&#10;      #if ($Email != '')&#10;      &quot;F_EmailAddress1&quot;: &quot;$Email&quot;,&#10;      #end&#10;      #if ($OrderNumber != '')&#10;      &quot;F_OrderNumber1&quot;: &quot;$OrderNumber&quot;,&#10;      #end&#10;      #if ($Status != '')&#10;      &quot;F_Status1&quot;: &quot;$Status&quot;,&#10;      #end&#10;      #if ($StatusVal != '')&#10;      &quot;F_DropDown1&quot;:&quot;$StatusVal&quot;,&#10;      #end&#10;      #if ($Description != '')&#10;      &quot;F_Paragraphtext2&quot;: &quot;$Description&quot;,&#10;      #end&#10;      #if ($WarrantyStartDate != '')&#10;      &quot;F_Date1&quot;: &quot;$WarrantyStartDate&quot;,&#10;      #end&#10;      #if ($WarrantyEndDate != '')&#10;      &quot;F_Date2&quot;: &quot;$WarrantyEndDate&quot;,&#10;      #end&#10;      #if ($Price != '')&#10;      &quot;F_Price&quot;: $Price,&#10;      #end&#10;      #if ($RMAID != '')&#10;      &quot;F_RMAID1&quot;: &quot;$RMAID&quot;,&#10;      #end&#10;      #if ($ProductID != '')&#10;      &quot;F_ProdID&quot;: $ProductID,&#10;      #end&#10;      #if ($ProductName != '')&#10;      &quot;F_ProductName1&quot;: &quot;$ProductName&quot;,&#10;      #end&#10;      #if ($SerialNumber != '')&#10;      &quot;F_SerialNumber1&quot;: &quot;$SerialNumber&quot;,&#10;      #end&#10;      #if ($ProdImgURL != '')&#10;      &quot;F_ProdImgURL&quot;: &quot;$ProdImgURL&quot;&#10;      #end&#10;    }" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="    {&#10;      &quot;uid&quot;:&quot;$uid&quot;,&#10;      &quot;flowState&quot;:&quot;$LeapFlowState&quot;,       &#10;      &quot;pressedButton&quot;:&quot;S_Update&quot;,&#10;      #if ($CustomerName != '')&#10;      &quot;F_CustomerName1&quot;: &quot;$CustomerName&quot;,&#10;      #end&#10;      #if ($PhoneNumber != '')&#10;      &quot;F_PhoneNumber1&quot;: &quot;$PhoneNumber&quot;,&#10;      #end&#10;      #if ($Email != '')&#10;      &quot;F_EmailAddress1&quot;: &quot;$Email&quot;,&#10;      #end&#10;      #if ($OrderNumber != '')&#10;      &quot;F_OrderNumber1&quot;: &quot;$OrderNumber&quot;,&#10;      #end&#10;      #if ($Status != '')&#10;      &quot;F_Status1&quot;: &quot;$Status&quot;,&#10;      #end&#10;      #if ($StatusVal != '')&#10;      &quot;F_DropDown1&quot;:&quot;$StatusVal&quot;,&#10;      #end&#10;      #if ($Description != '')&#10;      &quot;F_Paragraphtext2&quot;: &quot;$Description&quot;,&#10;      #end&#10;      #if ($WarrantyStartDate != '')&#10;      &quot;F_Date1&quot;: &quot;$WarrantyStartDate&quot;,&#10;      #end&#10;      #if ($WarrantyEndDate != '')&#10;      &quot;F_Date2&quot;: &quot;$WarrantyEndDate&quot;,&#10;      #end&#10;      #if ($Price != '')&#10;      &quot;F_Price&quot;: $Price,&#10;      #end&#10;      #if ($RMAID != '')&#10;      &quot;F_RMAID1&quot;: &quot;$RMAID&quot;,&#10;      #end&#10;      #if ($ProductID != '')&#10;      &quot;F_ProdID&quot;: $ProductID,&#10;      #end&#10;      #if ($ProductName != '')&#10;      &quot;F_ProductName1&quot;: &quot;$ProductName&quot;,&#10;      #end&#10;      #if ($SerialNumber != '')&#10;      &quot;F_SerialNumber1&quot;: &quot;$SerialNumber&quot;,&#10;      #end&#10;      #if ($ProdImgURL != '')&#10;      &quot;F_ProdImgURL&quot;: &quot;$ProdImgURL&quot;&#10;      #end&#10;    }" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="uid" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="uid" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

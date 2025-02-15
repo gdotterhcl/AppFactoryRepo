@@ -1,0 +1,17 @@
+{
+  "type" : "SAAS",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "UniquePrefixId" : "5ad1c7ff-4a74-46ad-b189-ae0ea4fefd73",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Button_acb471c07bca437aa5ed5c8cc96e6189": {
+        "id": "AS_Button_acb471c07bca437aa5ed5c8cc96e6189",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i912301d6dc24b48bddcd8afcb6b986a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_ea4b7d06068f44dea04f78034a2e2ba5",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "aaa712a138cf47c484ae90e45700e812",
+            "projectName": "OpusOneDemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n  scanValue : \"\"\n}",
+            "isCustomInput": true
+        }]
+    }
+}

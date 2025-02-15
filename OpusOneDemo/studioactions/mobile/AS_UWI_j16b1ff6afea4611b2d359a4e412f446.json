@@ -1,0 +1,53 @@
+{
+    "AS_UWI_j16b1ff6afea4611b2d359a4e412f446": {
+        "id": "AS_UWI_j16b1ff6afea4611b2d359a4e412f446",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "_ide_onClick_e9287612e2f04beeb436785c1e1f96ac",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmClaimList",
+            "widgetId": "LeftMenu",
+            "itemKUID": "ba850a2fb9534149873fbb6f82119a8d",
+            "widgetKUID": "b16e9c9f8d81487d9dce0dc9ad6e7699",
+            "wType": "UserWidgetInstance",
+            "animationObject": {
+                "left": "-100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION_c8106e0ec10b48fc8d0c1b4218ff5ccf",
+            "displayAnimationId": "MOVE_ACTION_c8106e0ec10b48fc8d0c1b4218ff5ccf",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.LeftMenu"
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_g2ca151108fb4457b2538e3c30b0f60c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLogin",
+            "formKUID": "i912301d6dc24b48bddcd8afcb6b986a",
+            "projectName": "OpusOneDemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "_ide_onClick_e9287612e2f04beeb436785c1e1f96ac",
+            "callbackType": "Callback",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

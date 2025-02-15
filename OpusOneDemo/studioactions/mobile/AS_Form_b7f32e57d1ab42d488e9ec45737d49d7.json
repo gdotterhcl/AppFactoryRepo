@@ -1,0 +1,67 @@
+{
+    "AS_Form_b7f32e57d1ab42d488e9ec45737d49d7": {
+        "id": "AS_Form_b7f32e57d1ab42d488e9ec45737d49d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimNew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i485d7da04114659b706a6407a9bed34"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "LOADING_INDICATOR_j2019896bb534a7aaa218c2189483500",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true",
+            "text": "Fetching Products..."
+        }, {
+            "id": "ADD_SNIPPET_d886e048eeb34d5a8eb2bedf194229f2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.DropdownField1.masterData = [];"
+        }, {
+            "id": "ADD_MAPPING_abd05ecacb114739bc5a998d279a6fb8",
+            "type": "ADD_MAPPING",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_SERVICE_b68f663247ef48839df5a3f412bd99c7",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_cd9533e78b6d40a38a4b05a8ef71394c",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_SERVICE_b68f663247ef48839df5a3f412bd99c7",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_SERVICE_b68f663247ef48839df5a3f412bd99c7",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "OpusOneProductLookup",
+                "serviceid": "3bb52c36-aef9-457c-9860-53f8c5e6bcd1",
+                "type": "integration",
+                "operationname": "getProductLookupData",
+                "operationid": "374158"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

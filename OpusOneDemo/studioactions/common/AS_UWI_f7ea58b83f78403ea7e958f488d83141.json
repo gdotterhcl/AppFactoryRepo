@@ -1,0 +1,24 @@
+{
+    "AS_UWI_f7ea58b83f78403ea7e958f488d83141": {
+        "id": "AS_UWI_f7ea58b83f78403ea7e958f488d83141",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u2c65093ad71461bb7a1d71df9c154c4"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_h4dce90e64bf4302bbc4bee125fba490",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.OptionButton2.toggleSelection(false);\nthis.view.OptionButton3.toggleSelection(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_UWI_ie721cccbd03498f9adf97d2ec998080": {
+        "id": "AS_UWI_ie721cccbd03498f9adf97d2ec998080",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "lat",
+            "datatype": "collection"
+        }, {
+            "name": "lon",
+            "datatype": "collection"
+        }],
+        "language": "js",
+        "eventType": "onLocationReceived",
+        "actions": [{
+            "id": "ADD_SNIPPET_ba9a7c3463cb4a19b8505a53a96945f0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.MapPanel.setHomePoint(lat, lon);",
+            "parentId": null
+        }]
+    }
+}

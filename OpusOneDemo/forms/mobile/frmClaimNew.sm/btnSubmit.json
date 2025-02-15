@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "74dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "seaaa958612a4f06804908fc6c57f278",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onButtonClicked": "AS_UWI_hca6a4fd5b5e4a08b4519eb540226a09",
+        "skinText": "sc783eb924fc4efeb87ec5ccd998bb9e",
+        "text": "SUBMIT FORM"
+    },
+    "id": "btnSubmit",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c0d82bd6ce6545f893ecb8e95ff6f4b8",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "fscClaimFields",
+    "pf": "frmClaimNew",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u7bdec0f1c6748f992a3409c71ea5765",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,32 @@
+{
+    "AS_UWI_c1ecba701f0d4624bcfaf7859782b772": {
+        "id": "AS_UWI_c1ecba701f0d4624bcfaf7859782b772",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimNew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i485d7da04114659b706a6407a9bed34"
+        },
+        "language": "js",
+        "eventType": "onOption3Click",
+        "actions": [{
+            "id": "MODIFY_VARIABLE_ACTION_hac144faca314918b4227c0735e557fa",
+            "type": "MODIFY_VARIABLE_ACTION",
+            "variable": "gblWarrantyType",
+            "valueType": "set",
+            "isGlobal": true,
+            "dataType": "simple",
+            "modifySet": "\"refund\"",
+            "modifySetType": "string"
+        }, {
+            "id": "ADD_SNIPPET_a1226cc2d24a4b89b9cc82676f3be078",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.topResolution.toggleOption(3);\nthis.view.topResolution.selectedValue = \"Refund\";"
+        }]
+    }
+}

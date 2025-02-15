@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_cde9a60df04741a490d0548707c07d5d": {
+        "id": "AS_FlexContainer_cde9a60df04741a490d0548707c07d5d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "mapTemplHome",
+            "type": "templates",
+            "platform": "",
+            "KUID": "fc2c014e3bca4fdaa6e0a1138be30605"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_cdc0aa711b86429290268e2614a30dfb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//self.view.mapMain.dismissCallout();\nself.view.mapMain.dismissCallout(self.view.mapMain.locationData[0]);",
+            "parentId": null
+        }]
+    }
+}

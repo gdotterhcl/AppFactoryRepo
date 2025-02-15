@@ -1,0 +1,82 @@
+{
+    "classname": "ProductPreviewPanel",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f097786263e24028a1ea968df2760bb0",
+                    "originalPropertyKey": "textCaption",
+                    "propertyIndex": 1,
+                    "propertyKey": "textCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j2f97636fb3340cc93a13d8145fb4822"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba90f5817c9e4f77a82b8909bda55ef5",
+                    "originalPropertyKey": "skinCaption",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinCaption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Caption Skin",
+                        "isHiddenInTool": false,
+                        "srcWidget": "CaptionAbstract",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "j2f97636fb3340cc93a13d8145fb4822"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "i35afc6f4f994cbf939b4afae5f19d1a",
+                    "propertyKey": "fscProducts",
+                    "srcWgtKUID": "d6c11135903f4cecae14279ea571f76b"
+                }
+            ],
+            "passthrough": [
+                {
+                    "kuid": "c5df4dfc45884bc5bde4873e03f45176",
+                    "propertyKey": "fscProducts",
+                    "srcWgtKUID": "d6c11135903f4cecae14279ea571f76b"
+                }
+            ]
+        }
+    },
+    "namespace": "com.hcltechsw.demo.opusone",
+    "version": "1.0.0"
+}

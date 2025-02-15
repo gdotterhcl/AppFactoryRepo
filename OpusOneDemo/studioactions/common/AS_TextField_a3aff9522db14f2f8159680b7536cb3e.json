@@ -1,0 +1,37 @@
+{
+    "AS_TextField_a3aff9522db14f2f8159680b7536cb3e": {
+        "id": "AS_TextField_a3aff9522db14f2f8159680b7536cb3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u43a3442dbf544f28ae28de5a72ec0ec"
+        },
+        "language": "js",
+        "eventType": "onTextChange",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ada4d56a3d4246088614744513773bc5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleTypingPanel",
+            "display": "toggleTypingPanel",
+            "inputparams": [{
+                "name": "bShow",
+                "value": "true"
+            }, {
+                "name": "who",
+                "value": "MSGTYPE.USER"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

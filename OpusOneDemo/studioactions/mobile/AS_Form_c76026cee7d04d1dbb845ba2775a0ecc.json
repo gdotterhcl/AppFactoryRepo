@@ -1,0 +1,24 @@
+{
+    "AS_Form_c76026cee7d04d1dbb845ba2775a0ecc": {
+        "id": "AS_Form_c76026cee7d04d1dbb845ba2775a0ecc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAI",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i5dbfe7b13c2491cb61f2993a3833e83"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "ADD_SNIPPET_da063a9a9b3745babeeda124d05f9f19",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.MessagePanelWithEntry.clearAllMessages();",
+            "parentId": null
+        }]
+    }
+}

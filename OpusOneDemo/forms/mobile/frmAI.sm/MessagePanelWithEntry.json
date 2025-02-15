@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "seaaa958612a4f06804908fc6c57f278",
+    "_top_": {
+        "type": "string",
+        "value": "144dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "MessageList": {
+            "children": [
+                "AgentMessage1",
+                "UserMessage1",
+                "AgentMessage2",
+                "UserMessage2",
+                "AgentMessage3"
+            ],
+            "targetContainerInfo": true
+        },
+        "ide_onSendMessage": "AS_UWI_e0117c7144594c70985b9677736dfa8d"
+    },
+    "id": "MessagePanelWithEntry",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a85ee46d8bbd472c86d54192f65e4fca",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmAI",
+    "pf": "frmAI",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "ceef76d1b2c6491aa76415e53c9d7a9f",
+    "wType": "UserWidgetInstance"
+}

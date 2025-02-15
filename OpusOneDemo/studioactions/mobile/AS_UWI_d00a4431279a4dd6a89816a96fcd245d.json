@@ -1,0 +1,32 @@
+{
+    "AS_UWI_d00a4431279a4dd6a89816a96fcd245d": {
+        "id": "AS_UWI_d00a4431279a4dd6a89816a96fcd245d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClaimNew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i485d7da04114659b706a6407a9bed34"
+        },
+        "language": "js",
+        "eventType": "onOption2Click",
+        "actions": [{
+            "id": "MODIFY_VARIABLE_ACTION_f53c1ae7fe9c44f6a53433b6c190e864",
+            "type": "MODIFY_VARIABLE_ACTION",
+            "variable": "gblWarrantyType",
+            "valueType": "set",
+            "isGlobal": true,
+            "dataType": "simple",
+            "modifySet": "\"replace\"",
+            "modifySetType": "string"
+        }, {
+            "id": "ADD_SNIPPET_h0ca6c8f8c9f44b593e23bc2047a6fca",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.topResolution.toggleOption(2);\nthis.view.topResolution.selectedValue = \"Replace\";"
+        }]
+    }
+}

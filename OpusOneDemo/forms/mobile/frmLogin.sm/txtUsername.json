@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Email address",
+    "_right_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_skin_": "sd63408be217493e8ba0ebd287a28e37",
+    "_text_": "gunndarr.dotter@hcl.software",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa6d04af91164871bf50c2e20ff4956f",
+    "id": "txtUsername",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "h1ab6a16063f48c78bfe4425694e4eed",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxUserName",
+    "pf": "frmLogin",
+    "placeholderi18n": "frmLogin.txtUsername.placeholder.2",
+    "placeholderskin": "s6b3a6c1a65b408b9473aa13b64a5871",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "texti18n": "frmLogin.txtUsername.text.1",
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

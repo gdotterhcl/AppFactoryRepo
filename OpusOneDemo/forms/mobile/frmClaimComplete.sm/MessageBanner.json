@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "seaaa958612a4f06804908fc6c57f278",
+    "_top_": {
+        "type": "string",
+        "value": "144dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "skinBanner": "s09e259bbae94a3abd9a2946bf08dbbb",
+        "skinText": "s5ba71d03da44684b680d4f301385844"
+    },
+    "id": "MessageBanner",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i9446cdb0c8e4286b85dbefe40853046",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmClaimComplete",
+    "pf": "frmClaimComplete",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "fd812e33621144da9ea32a084ee520ab",
+    "wType": "UserWidgetInstance",
+    "zindex": 2
+}

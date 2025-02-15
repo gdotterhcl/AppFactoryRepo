@@ -1,0 +1,105 @@
+{
+    "FP": {
+        "iphone": false,
+        "android": false,
+        "ipad": false,
+        "tabrcandroid": false,
+        "spaip": false,
+        "spaan": false,
+        "spabb": false,
+        "spaipad": false,
+        "spaandroidtablet": false,
+        "winphone8": false,
+        "spawinphone8": false,
+        "windows8": false,
+        "spawindowstablet": false,
+        "desktopweb": false
+    },
+    "general": {
+        "urls": {
+            "konyFabricURL": "https://manage.hclvoltmx.com"
+        },
+        "codeEditor": {
+            "indentConf": {
+                "indentWithTabs": false,
+                "tabSize": 4,
+                "indentSize": 2
+            },
+            "externalEditor": {
+                "displayName": "Sublime",
+                "installPath": ""
+            },
+            "codeComments": true,
+            "theme": "ambiance",
+            "fontSize": "medium",
+            "fontFamily": "monospace"
+        },
+        "proxyConfig": {
+            "enableProxy": false,
+            "proxyType": "BASIC",
+            "proxyHost": "",
+            "proxyPort": "",
+            "proxyUsername": "",
+            "proxyPassword": "",
+            "noProxyHostnames": ""
+        },
+        "remoteMACConfig": {
+            "macIPAddress": "",
+            "macUsername": "",
+            "macPassword": ""
+        },
+        "testRecorder": {
+            "port": 9111
+        },
+        "AllowLockManagementSettings": false,
+        "inlinePreviewEnabled": true,
+        "isHtmlPreviewEnabled": true,
+        "autoCollapsePW": false,
+        "widgetHighlighterActionButtons": false,
+        "isSnapModeEnabled": true,
+        "containerPlaceholders": true,
+        "skipAppSigningRequirements": false,
+        "autoDetectIP": true,
+        "staticIP": "",
+        "autoUpdate": false,
+        "enableExternalAuth": false,
+        "authProvider": "",
+        "groupServicesByCategory": false,
+        "donotShowGenerateObjectModelUpdate": false,
+        "ANDROID_HOME": "C:\\Android\\Sdk",
+        "bundletoolLocation": "C:\\Android\\Bundletool\\bundletool-all-1.17.0.jar",
+        "JAVA_HOME": "C:\\Java\\jdk17.0.12",
+        "donotShowDebugPopup": false,
+        "donotShowFPBinaryDebugPopup": false,
+        "ANDROID_DEBUGGER_PORT": 9222,
+        "ANDROID_FP_DEBUGGER_PORT": 9333
+    },
+    "build": {
+        "removeprintstatements_release": true,
+        "removeprintstatements_debug": false,
+        "support_multiple_ios_workspaces": false
+    },
+    "starter": {
+        "general": {
+            "enableMetrics": false
+        }
+    },
+    "dx": {
+        "general": {
+            "mavenPath": ""
+        },
+        "dxClient": {
+            "enablePublishToDX": null,
+            "dxconnectprotocol": null,
+            "hostname": "",
+            "dxconnectport": "",
+            "dxconnectusername": "",
+            "dxconnectpassword": "",
+            "dxusername": "",
+            "dxpassword": "",
+            "dxprotocol": null,
+            "dxport": ""
+        }
+    },
+    "vizTheme": "dark"
+}
